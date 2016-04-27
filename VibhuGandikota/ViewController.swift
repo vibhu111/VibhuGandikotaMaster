@@ -124,10 +124,10 @@ class ViewController: UIViewController {
         self.view.addSubview(Label1)
         Label1.animation = "fadeOut"
         Label1.curve = "easeIn"
-        Label1.delay  = 0.5
-        Label1.duration = 2
+        Label1.delay  = 1
+        Label1.duration = 1
         Label1.animate()
-        NSTimer.scheduledTimerWithTimeInterval(3, target: self, selector: "introScenep2", userInfo: nil, repeats: false)
+        NSTimer.scheduledTimerWithTimeInterval(1.5, target: self, selector: "introScenep2", userInfo: nil, repeats: false)
         
         
         
@@ -141,6 +141,7 @@ class ViewController: UIViewController {
         Label1.font = UIFont(name: "HelveticaNeue-Thin", size: 30)
         Label1.textAlignment = NSTextAlignment.Center
         Label1.text = "my name is Vibhu Gandikota,"
+        Label1.delay = 0
         Label1.animation = "fadeIn"
         Label1.curve = "easeIn"
         Label1.duration = 1.5
@@ -158,9 +159,9 @@ class ViewController: UIViewController {
         
         Label1.animation = "fadeOut"
         Label1.curve = "easeIn"
-        Label1.duration = 1
+        Label1.duration = 0.5
         Label1.animate()
-        NSTimer.scheduledTimerWithTimeInterval(1, target: self, selector: "introScenep4", userInfo: nil, repeats: false)
+        NSTimer.scheduledTimerWithTimeInterval(0.5, target: self, selector: "introScenep4", userInfo: nil, repeats: false)
 
         // ADD MORE OF AN INTRO LATER LIKE MORE SUBSTANCE!!!!!
         
@@ -175,10 +176,10 @@ class ViewController: UIViewController {
         Label1.text = "looks familiar right..."
         Label1.animation = "fadeIn"
         Label1.curve = "easeIn"
-        Label1.duration = 2
+        Label1.duration = 1
         Label1.animate()
         self.view.addSubview(Label1)
-        NSTimer.scheduledTimerWithTimeInterval(2, target: self, selector: "int45", userInfo: nil, repeats: false)
+        NSTimer.scheduledTimerWithTimeInterval(1, target: self, selector: "int45", userInfo: nil, repeats: false)
         
         
         
@@ -189,9 +190,9 @@ class ViewController: UIViewController {
         
         Label1.animation = "fadeOut"
         Label1.curve = "easeIn"
-        Label1.duration = 1
+        Label1.duration = 0.5
         Label1.animate()
-        NSTimer.scheduledTimerWithTimeInterval(1, target: self, selector: "introScenep5", userInfo: nil, repeats: false)
+        NSTimer.scheduledTimerWithTimeInterval(0.5, target: self, selector: "introScenep5", userInfo: nil, repeats: false)
 
         
     }
@@ -205,10 +206,10 @@ class ViewController: UIViewController {
         Label1.text = "they say imitation is the sincerest form of flattery"
         Label1.animation = "fadeIn"
         Label1.curve = "easeIn"
-        Label1.duration = 2
+        Label1.duration = 1
         Label1.animate()
         self.view.addSubview(Label1)
-        NSTimer.scheduledTimerWithTimeInterval(2, target: self, selector: "int46", userInfo: nil, repeats: false)
+        NSTimer.scheduledTimerWithTimeInterval(1, target: self, selector: "int46", userInfo: nil, repeats: false)
         
         
         
@@ -218,7 +219,7 @@ class ViewController: UIViewController {
         
         Label1.animation = "fadeOut"
         Label1.curve = "easeIn"
-        Label1.duration = 1
+        Label1.duration = 0.5
         Label1.animate()
         NSTimer.scheduledTimerWithTimeInterval(1, target: self, selector: "introScenep6", userInfo: nil, repeats: false)
         
@@ -234,10 +235,10 @@ class ViewController: UIViewController {
         Label1.text = "I hope you enjoy my WWDC application"
         Label1.animation = "fadeIn"
         Label1.curve = "easeIn"
-        Label1.duration = 2
+        Label1.duration = 1
         Label1.animate()
         self.view.addSubview(Label1)
-        NSTimer.scheduledTimerWithTimeInterval(2, target: self, selector: "int47", userInfo: nil, repeats: false)
+        NSTimer.scheduledTimerWithTimeInterval(1, target: self, selector: "int47", userInfo: nil, repeats: false)
         
         
         
@@ -248,7 +249,7 @@ class ViewController: UIViewController {
         
         Label1.animation = "fadeOut"
         Label1.curve = "easeIn"
-        Label1.duration = 1
+        Label1.duration = 0.5
         Label1.animate()
         slideToUnlock()
         x = 1

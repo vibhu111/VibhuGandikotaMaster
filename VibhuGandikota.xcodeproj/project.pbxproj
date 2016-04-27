@@ -7,13 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D251CA451CD05A0500A63B58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D251CA441CD05A0500A63B58 /* AppDelegate.swift */; };
-		D251CA471CD05A0500A63B58 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D251CA461CD05A0500A63B58 /* ViewController.swift */; };
-		D251CA4A1CD05A0500A63B58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D251CA481CD05A0500A63B58 /* Main.storyboard */; };
-		D251CA4C1CD05A0500A63B58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D251CA4B1CD05A0500A63B58 /* Assets.xcassets */; };
-		D251CA4F1CD05A0500A63B58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D251CA4D1CD05A0500A63B58 /* LaunchScreen.storyboard */; };
+		54DB5E25D426835B66967542 /* Pods_VibhuGandikota.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 298681100D2C6D15A3485EFA /* Pods_VibhuGandikota.framework */; };
+		D25068891CD06284002AD04B /* About Me.png in Resources */ = {isa = PBXBuildFile; fileRef = D25068691CD06284002AD04B /* About Me.png */; };
+		D250688A1CD06284002AD04B /* Academics.png in Resources */ = {isa = PBXBuildFile; fileRef = D250686A1CD06284002AD04B /* Academics.png */; };
+		D250688B1CD06284002AD04B /* bandSetting.png in Resources */ = {isa = PBXBuildFile; fileRef = D250686B1CD06284002AD04B /* bandSetting.png */; };
+		D250688C1CD06284002AD04B /* bball.png in Resources */ = {isa = PBXBuildFile; fileRef = D250686C1CD06284002AD04B /* bball.png */; };
+		D250688D1CD06284002AD04B /* bpi.png in Resources */ = {isa = PBXBuildFile; fileRef = D250686D1CD06284002AD04B /* bpi.png */; };
+		D250688E1CD06284002AD04B /* certificatepic.png in Resources */ = {isa = PBXBuildFile; fileRef = D250686E1CD06284002AD04B /* certificatepic.png */; };
+		D250688F1CD06284002AD04B /* csi.png in Resources */ = {isa = PBXBuildFile; fileRef = D250686F1CD06284002AD04B /* csi.png */; };
+		D25068901CD06284002AD04B /* cysi.png in Resources */ = {isa = PBXBuildFile; fileRef = D25068701CD06284002AD04B /* cysi.png */; };
+		D25068911CD06284002AD04B /* explorascreenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = D25068711CD06284002AD04B /* explorascreenshot.png */; };
+		D25068921CD06284002AD04B /* fball.png in Resources */ = {isa = PBXBuildFile; fileRef = D25068721CD06284002AD04B /* fball.png */; };
+		D25068931CD06284002AD04B /* ffi.png in Resources */ = {isa = PBXBuildFile; fileRef = D25068731CD06284002AD04B /* ffi.png */; };
+		D25068941CD06284002AD04B /* fi.png in Resources */ = {isa = PBXBuildFile; fileRef = D25068741CD06284002AD04B /* fi.png */; };
+		D25068951CD06284002AD04B /* hbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = D25068751CD06284002AD04B /* hbutton.png */; };
+		D25068961CD06284002AD04B /* Home.png in Resources */ = {isa = PBXBuildFile; fileRef = D25068761CD06284002AD04B /* Home.png */; };
+		D25068971CD06284002AD04B /* Interests.png in Resources */ = {isa = PBXBuildFile; fileRef = D25068771CD06284002AD04B /* Interests.png */; };
+		D25068981CD06284002AD04B /* javalang.png in Resources */ = {isa = PBXBuildFile; fileRef = D25068781CD06284002AD04B /* javalang.png */; };
+		D25068991CD06284002AD04B /* math+sci.png in Resources */ = {isa = PBXBuildFile; fileRef = D25068791CD06284002AD04B /* math+sci.png */; };
+		D250689A1CD06284002AD04B /* MePic.png in Resources */ = {isa = PBXBuildFile; fileRef = D250687A1CD06284002AD04B /* MePic.png */; };
+		D250689B1CD06284002AD04B /* mni.png in Resources */ = {isa = PBXBuildFile; fileRef = D250687B1CD06284002AD04B /* mni.png */; };
+		D250689C1CD06284002AD04B /* Music.png in Resources */ = {isa = PBXBuildFile; fileRef = D250687C1CD06284002AD04B /* Music.png */; };
+		D250689D1CD06284002AD04B /* My Apps.png in Resources */ = {isa = PBXBuildFile; fileRef = D250687D1CD06284002AD04B /* My Apps.png */; };
+		D250689E1CD06284002AD04B /* myschoolimg.png in Resources */ = {isa = PBXBuildFile; fileRef = D250687E1CD06284002AD04B /* myschoolimg.png */; };
+		D250689F1CD06284002AD04B /* Physics.png in Resources */ = {isa = PBXBuildFile; fileRef = D250687F1CD06284002AD04B /* Physics.png */; };
+		D25068A01CD06284002AD04B /* Programming.png in Resources */ = {isa = PBXBuildFile; fileRef = D25068801CD06284002AD04B /* Programming.png */; };
+		D25068A11CD06284002AD04B /* reading.png in Resources */ = {isa = PBXBuildFile; fileRef = D25068811CD06284002AD04B /* reading.png */; };
+		D25068A21CD06284002AD04B /* ruby.png in Resources */ = {isa = PBXBuildFile; fileRef = D25068821CD06284002AD04B /* ruby.png */; };
+		D25068A31CD06284002AD04B /* schoolinside.png in Resources */ = {isa = PBXBuildFile; fileRef = D25068831CD06284002AD04B /* schoolinside.png */; };
+		D25068A41CD06284002AD04B /* scip.png in Resources */ = {isa = PBXBuildFile; fileRef = D25068841CD06284002AD04B /* scip.png */; };
+		D25068A51CD06284002AD04B /* scratchlang.png in Resources */ = {isa = PBXBuildFile; fileRef = D25068851CD06284002AD04B /* scratchlang.png */; };
+		D25068A61CD06284002AD04B /* subjects.png in Resources */ = {isa = PBXBuildFile; fileRef = D25068861CD06284002AD04B /* subjects.png */; };
+		D25068A71CD06284002AD04B /* swiftobjc.png in Resources */ = {isa = PBXBuildFile; fileRef = D25068871CD06284002AD04B /* swiftobjc.png */; };
+		D25068A81CD06284002AD04B /* tabla.png in Resources */ = {isa = PBXBuildFile; fileRef = D25068881CD06284002AD04B /* tabla.png */; };
+		D25068AA1CD063C4002AD04B /* 1-f.png in Resources */ = {isa = PBXBuildFile; fileRef = D25068A91CD063C4002AD04B /* 1-f.png */; };
+		D25068AC1CD064CE002AD04B /* tgms.png in Resources */ = {isa = PBXBuildFile; fileRef = D25068AB1CD064CE002AD04B /* tgms.png */; };
+		D25068AE1CD06585002AD04B /* YOCJ.png in Resources */ = {isa = PBXBuildFile; fileRef = D25068AD1CD06585002AD04B /* YOCJ.png */; };
+		D25068B01CD068A3002AD04B /* scipi12.png in Resources */ = {isa = PBXBuildFile; fileRef = D25068AF1CD068A3002AD04B /* scipi12.png */; };
 		D251CA5A1CD05A0500A63B58 /* VibhuGandikotaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D251CA591CD05A0500A63B58 /* VibhuGandikotaTests.swift */; };
 		D251CA651CD05A0500A63B58 /* VibhuGandikotaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D251CA641CD05A0500A63B58 /* VibhuGandikotaUITests.swift */; };
+		D251CAB21CD05B0E00A63B58 /* AboutMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D251CA771CD05B0E00A63B58 /* AboutMeViewController.swift */; };
+		D251CAB41CD05B0E00A63B58 /* AcademicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D251CA791CD05B0E00A63B58 /* AcademicsViewController.swift */; };
+		D251CAB51CD05B0E00A63B58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D251CA7A1CD05B0E00A63B58 /* AppDelegate.swift */; };
+		D251CAB61CD05B0E00A63B58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D251CA7B1CD05B0E00A63B58 /* Assets.xcassets */; };
+		D251CAB81CD05B0E00A63B58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D251CA7D1CD05B0E00A63B58 /* LaunchScreen.storyboard */; };
+		D251CABD1CD05B0E00A63B58 /* customTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D251CA831CD05B0E00A63B58 /* customTableViewCell.swift */; };
+		D251CAC01CD05B0E00A63B58 /* FavSubjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D251CA861CD05B0E00A63B58 /* FavSubjectsViewController.swift */; };
+		D251CAC71CD05B0E00A63B58 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D251CA8D1CD05B0E00A63B58 /* HomePage.swift */; };
+		D251CAC81CD05B0E00A63B58 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D251CA8E1CD05B0E00A63B58 /* Info.plist */; };
+		D251CACA1CD05B0E00A63B58 /* interestsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D251CA901CD05B0E00A63B58 /* interestsTableViewCell.swift */; };
+		D251CACB1CD05B0E00A63B58 /* InterestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D251CA911CD05B0E00A63B58 /* InterestsViewController.swift */; };
+		D251CACE1CD05B0E00A63B58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D251CA941CD05B0E00A63B58 /* Main.storyboard */; };
+		D251CAD31CD05B0E00A63B58 /* MusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D251CA991CD05B0E00A63B58 /* MusicViewController.swift */; };
+		D251CAD51CD05B0E00A63B58 /* MyAppsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D251CA9B1CD05B0E00A63B58 /* MyAppsViewController.swift */; };
+		D251CAD71CD05B0E00A63B58 /* MySchoolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D251CA9D1CD05B0E00A63B58 /* MySchoolViewController.swift */; };
+		D251CADA1CD05B0E00A63B58 /* ProgrammingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D251CAA01CD05B0E00A63B58 /* ProgrammingController.swift */; };
+		D251CAE51CD05B0E00A63B58 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D251CAAB1CD05B0E00A63B58 /* TableViewCell.swift */; };
+		D251CAE61CD05B0E00A63B58 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D251CAAC1CD05B0E00A63B58 /* TableViewController.swift */; };
+		D251CAE81CD05B0E00A63B58 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D251CAAE1CD05B0E00A63B58 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +85,71 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		298681100D2C6D15A3485EFA /* Pods_VibhuGandikota.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VibhuGandikota.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D83A0A6E0136EC0DA872C4D /* Pods-VibhuGandikota.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VibhuGandikota.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VibhuGandikota/Pods-VibhuGandikota.debug.xcconfig"; sourceTree = "<group>"; };
+		D03BED047B1F0E31B28238F0 /* Pods-VibhuGandikota.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VibhuGandikota.release.xcconfig"; path = "Pods/Target Support Files/Pods-VibhuGandikota/Pods-VibhuGandikota.release.xcconfig"; sourceTree = "<group>"; };
+		D25068691CD06284002AD04B /* About Me.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "About Me.png"; sourceTree = "<group>"; };
+		D250686A1CD06284002AD04B /* Academics.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Academics.png; sourceTree = "<group>"; };
+		D250686B1CD06284002AD04B /* bandSetting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bandSetting.png; sourceTree = "<group>"; };
+		D250686C1CD06284002AD04B /* bball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bball.png; sourceTree = "<group>"; };
+		D250686D1CD06284002AD04B /* bpi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bpi.png; sourceTree = "<group>"; };
+		D250686E1CD06284002AD04B /* certificatepic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = certificatepic.png; sourceTree = "<group>"; };
+		D250686F1CD06284002AD04B /* csi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = csi.png; sourceTree = "<group>"; };
+		D25068701CD06284002AD04B /* cysi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cysi.png; sourceTree = "<group>"; };
+		D25068711CD06284002AD04B /* explorascreenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = explorascreenshot.png; sourceTree = "<group>"; };
+		D25068721CD06284002AD04B /* fball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fball.png; sourceTree = "<group>"; };
+		D25068731CD06284002AD04B /* ffi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ffi.png; sourceTree = "<group>"; };
+		D25068741CD06284002AD04B /* fi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fi.png; sourceTree = "<group>"; };
+		D25068751CD06284002AD04B /* hbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hbutton.png; sourceTree = "<group>"; };
+		D25068761CD06284002AD04B /* Home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Home.png; sourceTree = "<group>"; };
+		D25068771CD06284002AD04B /* Interests.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Interests.png; sourceTree = "<group>"; };
+		D25068781CD06284002AD04B /* javalang.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = javalang.png; sourceTree = "<group>"; };
+		D25068791CD06284002AD04B /* math+sci.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "math+sci.png"; sourceTree = "<group>"; };
+		D250687A1CD06284002AD04B /* MePic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MePic.png; sourceTree = "<group>"; };
+		D250687B1CD06284002AD04B /* mni.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mni.png; sourceTree = "<group>"; };
+		D250687C1CD06284002AD04B /* Music.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Music.png; sourceTree = "<group>"; };
+		D250687D1CD06284002AD04B /* My Apps.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "My Apps.png"; sourceTree = "<group>"; };
+		D250687E1CD06284002AD04B /* myschoolimg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myschoolimg.png; sourceTree = "<group>"; };
+		D250687F1CD06284002AD04B /* Physics.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Physics.png; sourceTree = "<group>"; };
+		D25068801CD06284002AD04B /* Programming.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Programming.png; sourceTree = "<group>"; };
+		D25068811CD06284002AD04B /* reading.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reading.png; sourceTree = "<group>"; };
+		D25068821CD06284002AD04B /* ruby.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ruby.png; sourceTree = "<group>"; };
+		D25068831CD06284002AD04B /* schoolinside.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = schoolinside.png; sourceTree = "<group>"; };
+		D25068841CD06284002AD04B /* scip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scip.png; sourceTree = "<group>"; };
+		D25068851CD06284002AD04B /* scratchlang.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scratchlang.png; sourceTree = "<group>"; };
+		D25068861CD06284002AD04B /* subjects.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = subjects.png; sourceTree = "<group>"; };
+		D25068871CD06284002AD04B /* swiftobjc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = swiftobjc.png; sourceTree = "<group>"; };
+		D25068881CD06284002AD04B /* tabla.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabla.png; sourceTree = "<group>"; };
+		D25068A91CD063C4002AD04B /* 1-f.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1-f.png"; sourceTree = "<group>"; };
+		D25068AB1CD064CE002AD04B /* tgms.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tgms.png; sourceTree = "<group>"; };
+		D25068AD1CD06585002AD04B /* YOCJ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YOCJ.png; sourceTree = "<group>"; };
+		D25068AF1CD068A3002AD04B /* scipi12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scipi12.png; sourceTree = "<group>"; };
 		D251CA411CD05A0500A63B58 /* VibhuGandikota.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VibhuGandikota.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D251CA441CD05A0500A63B58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D251CA461CD05A0500A63B58 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D251CA491CD05A0500A63B58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D251CA4B1CD05A0500A63B58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D251CA4E1CD05A0500A63B58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D251CA501CD05A0500A63B58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D251CA551CD05A0500A63B58 /* VibhuGandikotaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VibhuGandikotaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D251CA591CD05A0500A63B58 /* VibhuGandikotaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VibhuGandikotaTests.swift; sourceTree = "<group>"; };
 		D251CA5B1CD05A0500A63B58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D251CA601CD05A0500A63B58 /* VibhuGandikotaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VibhuGandikotaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D251CA641CD05A0500A63B58 /* VibhuGandikotaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VibhuGandikotaUITests.swift; sourceTree = "<group>"; };
 		D251CA661CD05A0500A63B58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D251CA771CD05B0E00A63B58 /* AboutMeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutMeViewController.swift; sourceTree = "<group>"; };
+		D251CA791CD05B0E00A63B58 /* AcademicsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AcademicsViewController.swift; sourceTree = "<group>"; };
+		D251CA7A1CD05B0E00A63B58 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D251CA7B1CD05B0E00A63B58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D251CA7E1CD05B0E00A63B58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D251CA831CD05B0E00A63B58 /* customTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customTableViewCell.swift; sourceTree = "<group>"; };
+		D251CA861CD05B0E00A63B58 /* FavSubjectsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavSubjectsViewController.swift; sourceTree = "<group>"; };
+		D251CA8D1CD05B0E00A63B58 /* HomePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		D251CA8E1CD05B0E00A63B58 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D251CA901CD05B0E00A63B58 /* interestsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = interestsTableViewCell.swift; sourceTree = "<group>"; };
+		D251CA911CD05B0E00A63B58 /* InterestsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterestsViewController.swift; sourceTree = "<group>"; };
+		D251CA941CD05B0E00A63B58 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		D251CA991CD05B0E00A63B58 /* MusicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicViewController.swift; sourceTree = "<group>"; };
+		D251CA9B1CD05B0E00A63B58 /* MyAppsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyAppsViewController.swift; sourceTree = "<group>"; };
+		D251CA9D1CD05B0E00A63B58 /* MySchoolViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MySchoolViewController.swift; sourceTree = "<group>"; };
+		D251CAA01CD05B0E00A63B58 /* ProgrammingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgrammingController.swift; sourceTree = "<group>"; };
+		D251CAAB1CD05B0E00A63B58 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		D251CAAC1CD05B0E00A63B58 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		D251CAAE1CD05B0E00A63B58 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +157,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54DB5E25D426835B66967542 /* Pods_VibhuGandikota.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,13 +178,75 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		46629CCACD2D02F865E1B730 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7D83A0A6E0136EC0DA872C4D /* Pods-VibhuGandikota.debug.xcconfig */,
+				D03BED047B1F0E31B28238F0 /* Pods-VibhuGandikota.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C098F4FAFDA88B605BA7E69E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				298681100D2C6D15A3485EFA /* Pods_VibhuGandikota.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D25068681CD06284002AD04B /* untitled folder115 */ = {
+			isa = PBXGroup;
+			children = (
+				D25068A91CD063C4002AD04B /* 1-f.png */,
+				D25068691CD06284002AD04B /* About Me.png */,
+				D250686A1CD06284002AD04B /* Academics.png */,
+				D250686B1CD06284002AD04B /* bandSetting.png */,
+				D25068AD1CD06585002AD04B /* YOCJ.png */,
+				D250686C1CD06284002AD04B /* bball.png */,
+				D250686D1CD06284002AD04B /* bpi.png */,
+				D250686E1CD06284002AD04B /* certificatepic.png */,
+				D250686F1CD06284002AD04B /* csi.png */,
+				D25068701CD06284002AD04B /* cysi.png */,
+				D25068711CD06284002AD04B /* explorascreenshot.png */,
+				D25068721CD06284002AD04B /* fball.png */,
+				D25068731CD06284002AD04B /* ffi.png */,
+				D25068741CD06284002AD04B /* fi.png */,
+				D25068751CD06284002AD04B /* hbutton.png */,
+				D25068761CD06284002AD04B /* Home.png */,
+				D25068771CD06284002AD04B /* Interests.png */,
+				D25068781CD06284002AD04B /* javalang.png */,
+				D25068791CD06284002AD04B /* math+sci.png */,
+				D250687A1CD06284002AD04B /* MePic.png */,
+				D250687B1CD06284002AD04B /* mni.png */,
+				D250687C1CD06284002AD04B /* Music.png */,
+				D250687D1CD06284002AD04B /* My Apps.png */,
+				D250687E1CD06284002AD04B /* myschoolimg.png */,
+				D250687F1CD06284002AD04B /* Physics.png */,
+				D25068AF1CD068A3002AD04B /* scipi12.png */,
+				D25068801CD06284002AD04B /* Programming.png */,
+				D25068811CD06284002AD04B /* reading.png */,
+				D25068821CD06284002AD04B /* ruby.png */,
+				D25068831CD06284002AD04B /* schoolinside.png */,
+				D25068841CD06284002AD04B /* scip.png */,
+				D25068851CD06284002AD04B /* scratchlang.png */,
+				D25068861CD06284002AD04B /* subjects.png */,
+				D25068871CD06284002AD04B /* swiftobjc.png */,
+				D25068881CD06284002AD04B /* tabla.png */,
+				D25068AB1CD064CE002AD04B /* tgms.png */,
+			);
+			path = "untitled folder115";
+			sourceTree = "<group>";
+		};
 		D251CA381CD05A0500A63B58 = {
 			isa = PBXGroup;
 			children = (
-				D251CA431CD05A0500A63B58 /* VibhuGandikota */,
+				D251CA741CD05B0E00A63B58 /* VibhuGandikota */,
 				D251CA581CD05A0500A63B58 /* VibhuGandikotaTests */,
 				D251CA631CD05A0500A63B58 /* VibhuGandikotaUITests */,
 				D251CA421CD05A0500A63B58 /* Products */,
+				46629CCACD2D02F865E1B730 /* Pods */,
+				C098F4FAFDA88B605BA7E69E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,19 +258,6 @@
 				D251CA601CD05A0500A63B58 /* VibhuGandikotaUITests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		D251CA431CD05A0500A63B58 /* VibhuGandikota */ = {
-			isa = PBXGroup;
-			children = (
-				D251CA441CD05A0500A63B58 /* AppDelegate.swift */,
-				D251CA461CD05A0500A63B58 /* ViewController.swift */,
-				D251CA481CD05A0500A63B58 /* Main.storyboard */,
-				D251CA4B1CD05A0500A63B58 /* Assets.xcassets */,
-				D251CA4D1CD05A0500A63B58 /* LaunchScreen.storyboard */,
-				D251CA501CD05A0500A63B58 /* Info.plist */,
-			);
-			path = VibhuGandikota;
 			sourceTree = "<group>";
 		};
 		D251CA581CD05A0500A63B58 /* VibhuGandikotaTests */ = {
@@ -125,6 +278,33 @@
 			path = VibhuGandikotaUITests;
 			sourceTree = "<group>";
 		};
+		D251CA741CD05B0E00A63B58 /* VibhuGandikota */ = {
+			isa = PBXGroup;
+			children = (
+				D251CA771CD05B0E00A63B58 /* AboutMeViewController.swift */,
+				D251CA791CD05B0E00A63B58 /* AcademicsViewController.swift */,
+				D251CA7A1CD05B0E00A63B58 /* AppDelegate.swift */,
+				D251CA7B1CD05B0E00A63B58 /* Assets.xcassets */,
+				D25068681CD06284002AD04B /* untitled folder115 */,
+				D251CA7D1CD05B0E00A63B58 /* LaunchScreen.storyboard */,
+				D251CA831CD05B0E00A63B58 /* customTableViewCell.swift */,
+				D251CA861CD05B0E00A63B58 /* FavSubjectsViewController.swift */,
+				D251CA8D1CD05B0E00A63B58 /* HomePage.swift */,
+				D251CA8E1CD05B0E00A63B58 /* Info.plist */,
+				D251CA901CD05B0E00A63B58 /* interestsTableViewCell.swift */,
+				D251CA911CD05B0E00A63B58 /* InterestsViewController.swift */,
+				D251CA941CD05B0E00A63B58 /* Main.storyboard */,
+				D251CA991CD05B0E00A63B58 /* MusicViewController.swift */,
+				D251CA9B1CD05B0E00A63B58 /* MyAppsViewController.swift */,
+				D251CA9D1CD05B0E00A63B58 /* MySchoolViewController.swift */,
+				D251CAA01CD05B0E00A63B58 /* ProgrammingController.swift */,
+				D251CAAB1CD05B0E00A63B58 /* TableViewCell.swift */,
+				D251CAAC1CD05B0E00A63B58 /* TableViewController.swift */,
+				D251CAAE1CD05B0E00A63B58 /* ViewController.swift */,
+			);
+			path = VibhuGandikota;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +312,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D251CA691CD05A0500A63B58 /* Build configuration list for PBXNativeTarget "VibhuGandikota" */;
 			buildPhases = (
+				77ABC5E383C155F50EC09D36 /* Check Pods Manifest.lock */,
 				D251CA3D1CD05A0500A63B58 /* Sources */,
 				D251CA3E1CD05A0500A63B58 /* Frameworks */,
 				D251CA3F1CD05A0500A63B58 /* Resources */,
+				09A43DF2442B42B87652443E /* Embed Pods Frameworks */,
+				9361EE80AE665F1BF9645416 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -229,9 +412,46 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D251CA4F1CD05A0500A63B58 /* LaunchScreen.storyboard in Resources */,
-				D251CA4C1CD05A0500A63B58 /* Assets.xcassets in Resources */,
-				D251CA4A1CD05A0500A63B58 /* Main.storyboard in Resources */,
+				D250689D1CD06284002AD04B /* My Apps.png in Resources */,
+				D25068B01CD068A3002AD04B /* scipi12.png in Resources */,
+				D25068A01CD06284002AD04B /* Programming.png in Resources */,
+				D25068991CD06284002AD04B /* math+sci.png in Resources */,
+				D25068961CD06284002AD04B /* Home.png in Resources */,
+				D250688E1CD06284002AD04B /* certificatepic.png in Resources */,
+				D250688D1CD06284002AD04B /* bpi.png in Resources */,
+				D250688F1CD06284002AD04B /* csi.png in Resources */,
+				D25068951CD06284002AD04B /* hbutton.png in Resources */,
+				D25068A81CD06284002AD04B /* tabla.png in Resources */,
+				D25068A31CD06284002AD04B /* schoolinside.png in Resources */,
+				D250688B1CD06284002AD04B /* bandSetting.png in Resources */,
+				D25068A61CD06284002AD04B /* subjects.png in Resources */,
+				D25068AC1CD064CE002AD04B /* tgms.png in Resources */,
+				D25068A41CD06284002AD04B /* scip.png in Resources */,
+				D250688C1CD06284002AD04B /* bball.png in Resources */,
+				D251CAB81CD05B0E00A63B58 /* LaunchScreen.storyboard in Resources */,
+				D25068A21CD06284002AD04B /* ruby.png in Resources */,
+				D251CAC81CD05B0E00A63B58 /* Info.plist in Resources */,
+				D25068A11CD06284002AD04B /* reading.png in Resources */,
+				D250688A1CD06284002AD04B /* Academics.png in Resources */,
+				D25068941CD06284002AD04B /* fi.png in Resources */,
+				D250689A1CD06284002AD04B /* MePic.png in Resources */,
+				D25068981CD06284002AD04B /* javalang.png in Resources */,
+				D25068911CD06284002AD04B /* explorascreenshot.png in Resources */,
+				D25068931CD06284002AD04B /* ffi.png in Resources */,
+				D251CACE1CD05B0E00A63B58 /* Main.storyboard in Resources */,
+				D250689F1CD06284002AD04B /* Physics.png in Resources */,
+				D25068AE1CD06585002AD04B /* YOCJ.png in Resources */,
+				D25068891CD06284002AD04B /* About Me.png in Resources */,
+				D25068921CD06284002AD04B /* fball.png in Resources */,
+				D25068A71CD06284002AD04B /* swiftobjc.png in Resources */,
+				D251CAB61CD05B0E00A63B58 /* Assets.xcassets in Resources */,
+				D25068971CD06284002AD04B /* Interests.png in Resources */,
+				D25068AA1CD063C4002AD04B /* 1-f.png in Resources */,
+				D250689C1CD06284002AD04B /* Music.png in Resources */,
+				D250689E1CD06284002AD04B /* myschoolimg.png in Resources */,
+				D25068901CD06284002AD04B /* cysi.png in Resources */,
+				D250689B1CD06284002AD04B /* mni.png in Resources */,
+				D25068A51CD06284002AD04B /* scratchlang.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +471,74 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		09A43DF2442B42B87652443E /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VibhuGandikota/Pods-VibhuGandikota-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77ABC5E383C155F50EC09D36 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9361EE80AE665F1BF9645416 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VibhuGandikota/Pods-VibhuGandikota-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D251CA3D1CD05A0500A63B58 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D251CA471CD05A0500A63B58 /* ViewController.swift in Sources */,
-				D251CA451CD05A0500A63B58 /* AppDelegate.swift in Sources */,
+				D251CAE81CD05B0E00A63B58 /* ViewController.swift in Sources */,
+				D251CAE51CD05B0E00A63B58 /* TableViewCell.swift in Sources */,
+				D251CAE61CD05B0E00A63B58 /* TableViewController.swift in Sources */,
+				D251CACB1CD05B0E00A63B58 /* InterestsViewController.swift in Sources */,
+				D251CADA1CD05B0E00A63B58 /* ProgrammingController.swift in Sources */,
+				D251CAB51CD05B0E00A63B58 /* AppDelegate.swift in Sources */,
+				D251CAD51CD05B0E00A63B58 /* MyAppsViewController.swift in Sources */,
+				D251CAC71CD05B0E00A63B58 /* HomePage.swift in Sources */,
+				D251CAB21CD05B0E00A63B58 /* AboutMeViewController.swift in Sources */,
+				D251CABD1CD05B0E00A63B58 /* customTableViewCell.swift in Sources */,
+				D251CAD71CD05B0E00A63B58 /* MySchoolViewController.swift in Sources */,
+				D251CAB41CD05B0E00A63B58 /* AcademicsViewController.swift in Sources */,
+				D251CAD31CD05B0E00A63B58 /* MusicViewController.swift in Sources */,
+				D251CAC01CD05B0E00A63B58 /* FavSubjectsViewController.swift in Sources */,
+				D251CACA1CD05B0E00A63B58 /* interestsTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,18 +574,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D251CA481CD05A0500A63B58 /* Main.storyboard */ = {
+		D251CA7D1CD05B0E00A63B58 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D251CA491CD05A0500A63B58 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		D251CA4D1CD05A0500A63B58 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D251CA4E1CD05A0500A63B58 /* Base */,
+				D251CA7E1CD05B0E00A63B58 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -399,6 +672,7 @@
 		};
 		D251CA6A1CD05A0500A63B58 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D83A0A6E0136EC0DA872C4D /* Pods-VibhuGandikota.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = VibhuGandikota/Info.plist;
@@ -410,6 +684,7 @@
 		};
 		D251CA6B1CD05A0500A63B58 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D03BED047B1F0E31B28238F0 /* Pods-VibhuGandikota.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = VibhuGandikota/Info.plist;
@@ -484,6 +759,7 @@
 				D251CA6B1CD05A0500A63B58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D251CA6C1CD05A0500A63B58 /* Build configuration list for PBXNativeTarget "VibhuGandikotaTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +768,7 @@
 				D251CA6E1CD05A0500A63B58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D251CA6F1CD05A0500A63B58 /* Build configuration list for PBXNativeTarget "VibhuGandikotaUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +777,7 @@
 				D251CA711CD05A0500A63B58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  VibhuGandikota
 //
-//  Created by Vibhu Gandikota on 4/26/16.
+//  Created by Vibhu Gandikota on 4/23/16.
 //  Copyright © 2016 Vibhu Gandikota. All rights reserved.
 //
 
@@ -16,6 +16,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        if NSUserDefaults.standardUserDefaults().boolForKey("isFirstLaunch") {
+            
+            NSUserDefaults.standardUserDefaults().setBool(true, forKey: "isFirstLaunch")
+            NSUserDefaults.standardUserDefaults().synchronize()
+        }
+        
+        
+        NSUserDefaults.standardUserDefaults().setValue("open", forKey: "unopen")
+        NSUserDefaults.standardUserDefaults().setValue("opens", forKey: "unopens")
+
+        
         return true
     }
 

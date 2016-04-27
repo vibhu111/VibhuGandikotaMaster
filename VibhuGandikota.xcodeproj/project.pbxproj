@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D251CA451CD05A0500A63B58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D251CA441CD05A0500A63B58 /* AppDelegate.swift */; };
+		D251CA471CD05A0500A63B58 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D251CA461CD05A0500A63B58 /* ViewController.swift */; };
+		D251CA4A1CD05A0500A63B58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D251CA481CD05A0500A63B58 /* Main.storyboard */; };
+		D251CA4C1CD05A0500A63B58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D251CA4B1CD05A0500A63B58 /* Assets.xcassets */; };
+		D251CA4F1CD05A0500A63B58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D251CA4D1CD05A0500A63B58 /* LaunchScreen.storyboard */; };
+		D251CA5A1CD05A0500A63B58 /* VibhuGandikotaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D251CA591CD05A0500A63B58 /* VibhuGandikotaTests.swift */; };
+		D251CA651CD05A0500A63B58 /* VibhuGandikotaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D251CA641CD05A0500A63B58 /* VibhuGandikotaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D251CA561CD05A0500A63B58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D251CA391CD05A0500A63B58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D251CA401CD05A0500A63B58;
+			remoteInfo = VibhuGandikota;
+		};
+		D251CA611CD05A0500A63B58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D251CA391CD05A0500A63B58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D251CA401CD05A0500A63B58;
+			remoteInfo = VibhuGandikota;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D251CA411CD05A0500A63B58 /* VibhuGandikota.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VibhuGandikota.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D251CA441CD05A0500A63B58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D251CA461CD05A0500A63B58 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D251CA491CD05A0500A63B58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D251CA4B1CD05A0500A63B58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D251CA4E1CD05A0500A63B58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D251CA501CD05A0500A63B58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D251CA551CD05A0500A63B58 /* VibhuGandikotaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VibhuGandikotaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D251CA591CD05A0500A63B58 /* VibhuGandikotaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VibhuGandikotaTests.swift; sourceTree = "<group>"; };
+		D251CA5B1CD05A0500A63B58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D251CA601CD05A0500A63B58 /* VibhuGandikotaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VibhuGandikotaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D251CA641CD05A0500A63B58 /* VibhuGandikotaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VibhuGandikotaUITests.swift; sourceTree = "<group>"; };
+		D251CA661CD05A0500A63B58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D251CA3E1CD05A0500A63B58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D251CA521CD05A0500A63B58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D251CA5D1CD05A0500A63B58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D251CA381CD05A0500A63B58 = {
+			isa = PBXGroup;
+			children = (
+				D251CA431CD05A0500A63B58 /* VibhuGandikota */,
+				D251CA581CD05A0500A63B58 /* VibhuGandikotaTests */,
+				D251CA631CD05A0500A63B58 /* VibhuGandikotaUITests */,
+				D251CA421CD05A0500A63B58 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D251CA421CD05A0500A63B58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D251CA411CD05A0500A63B58 /* VibhuGandikota.app */,
+				D251CA551CD05A0500A63B58 /* VibhuGandikotaTests.xctest */,
+				D251CA601CD05A0500A63B58 /* VibhuGandikotaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D251CA431CD05A0500A63B58 /* VibhuGandikota */ = {
+			isa = PBXGroup;
+			children = (
+				D251CA441CD05A0500A63B58 /* AppDelegate.swift */,
+				D251CA461CD05A0500A63B58 /* ViewController.swift */,
+				D251CA481CD05A0500A63B58 /* Main.storyboard */,
+				D251CA4B1CD05A0500A63B58 /* Assets.xcassets */,
+				D251CA4D1CD05A0500A63B58 /* LaunchScreen.storyboard */,
+				D251CA501CD05A0500A63B58 /* Info.plist */,
+			);
+			path = VibhuGandikota;
+			sourceTree = "<group>";
+		};
+		D251CA581CD05A0500A63B58 /* VibhuGandikotaTests */ = {
+			isa = PBXGroup;
+			children = (
+				D251CA591CD05A0500A63B58 /* VibhuGandikotaTests.swift */,
+				D251CA5B1CD05A0500A63B58 /* Info.plist */,
+			);
+			path = VibhuGandikotaTests;
+			sourceTree = "<group>";
+		};
+		D251CA631CD05A0500A63B58 /* VibhuGandikotaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D251CA641CD05A0500A63B58 /* VibhuGandikotaUITests.swift */,
+				D251CA661CD05A0500A63B58 /* Info.plist */,
+			);
+			path = VibhuGandikotaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D251CA401CD05A0500A63B58 /* VibhuGandikota */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D251CA691CD05A0500A63B58 /* Build configuration list for PBXNativeTarget "VibhuGandikota" */;
+			buildPhases = (
+				D251CA3D1CD05A0500A63B58 /* Sources */,
+				D251CA3E1CD05A0500A63B58 /* Frameworks */,
+				D251CA3F1CD05A0500A63B58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VibhuGandikota;
+			productName = VibhuGandikota;
+			productReference = D251CA411CD05A0500A63B58 /* VibhuGandikota.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D251CA541CD05A0500A63B58 /* VibhuGandikotaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D251CA6C1CD05A0500A63B58 /* Build configuration list for PBXNativeTarget "VibhuGandikotaTests" */;
+			buildPhases = (
+				D251CA511CD05A0500A63B58 /* Sources */,
+				D251CA521CD05A0500A63B58 /* Frameworks */,
+				D251CA531CD05A0500A63B58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D251CA571CD05A0500A63B58 /* PBXTargetDependency */,
+			);
+			name = VibhuGandikotaTests;
+			productName = VibhuGandikotaTests;
+			productReference = D251CA551CD05A0500A63B58 /* VibhuGandikotaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D251CA5F1CD05A0500A63B58 /* VibhuGandikotaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D251CA6F1CD05A0500A63B58 /* Build configuration list for PBXNativeTarget "VibhuGandikotaUITests" */;
+			buildPhases = (
+				D251CA5C1CD05A0500A63B58 /* Sources */,
+				D251CA5D1CD05A0500A63B58 /* Frameworks */,
+				D251CA5E1CD05A0500A63B58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D251CA621CD05A0500A63B58 /* PBXTargetDependency */,
+			);
+			name = VibhuGandikotaUITests;
+			productName = VibhuGandikotaUITests;
+			productReference = D251CA601CD05A0500A63B58 /* VibhuGandikotaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D251CA391CD05A0500A63B58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Vibhu Gandikota";
+				TargetAttributes = {
+					D251CA401CD05A0500A63B58 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					D251CA541CD05A0500A63B58 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = D251CA401CD05A0500A63B58;
+					};
+					D251CA5F1CD05A0500A63B58 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = D251CA401CD05A0500A63B58;
+					};
+				};
+			};
+			buildConfigurationList = D251CA3C1CD05A0500A63B58 /* Build configuration list for PBXProject "VibhuGandikota" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D251CA381CD05A0500A63B58;
+			productRefGroup = D251CA421CD05A0500A63B58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D251CA401CD05A0500A63B58 /* VibhuGandikota */,
+				D251CA541CD05A0500A63B58 /* VibhuGandikotaTests */,
+				D251CA5F1CD05A0500A63B58 /* VibhuGandikotaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D251CA3F1CD05A0500A63B58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D251CA4F1CD05A0500A63B58 /* LaunchScreen.storyboard in Resources */,
+				D251CA4C1CD05A0500A63B58 /* Assets.xcassets in Resources */,
+				D251CA4A1CD05A0500A63B58 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D251CA531CD05A0500A63B58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D251CA5E1CD05A0500A63B58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D251CA3D1CD05A0500A63B58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D251CA471CD05A0500A63B58 /* ViewController.swift in Sources */,
+				D251CA451CD05A0500A63B58 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D251CA511CD05A0500A63B58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D251CA5A1CD05A0500A63B58 /* VibhuGandikotaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D251CA5C1CD05A0500A63B58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D251CA651CD05A0500A63B58 /* VibhuGandikotaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D251CA571CD05A0500A63B58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D251CA401CD05A0500A63B58 /* VibhuGandikota */;
+			targetProxy = D251CA561CD05A0500A63B58 /* PBXContainerItemProxy */;
+		};
+		D251CA621CD05A0500A63B58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D251CA401CD05A0500A63B58 /* VibhuGandikota */;
+			targetProxy = D251CA611CD05A0500A63B58 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D251CA481CD05A0500A63B58 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D251CA491CD05A0500A63B58 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D251CA4D1CD05A0500A63B58 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D251CA4E1CD05A0500A63B58 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D251CA671CD05A0500A63B58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D251CA681CD05A0500A63B58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D251CA6A1CD05A0500A63B58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VibhuGandikota/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Gandikota.VibhuGandikota;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D251CA6B1CD05A0500A63B58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VibhuGandikota/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Gandikota.VibhuGandikota;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D251CA6D1CD05A0500A63B58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VibhuGandikotaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Gandikota.VibhuGandikotaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VibhuGandikota.app/VibhuGandikota";
+			};
+			name = Debug;
+		};
+		D251CA6E1CD05A0500A63B58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VibhuGandikotaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Gandikota.VibhuGandikotaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VibhuGandikota.app/VibhuGandikota";
+			};
+			name = Release;
+		};
+		D251CA701CD05A0500A63B58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VibhuGandikotaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Gandikota.VibhuGandikotaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VibhuGandikota;
+			};
+			name = Debug;
+		};
+		D251CA711CD05A0500A63B58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VibhuGandikotaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Gandikota.VibhuGandikotaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VibhuGandikota;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D251CA3C1CD05A0500A63B58 /* Build configuration list for PBXProject "VibhuGandikota" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D251CA671CD05A0500A63B58 /* Debug */,
+				D251CA681CD05A0500A63B58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D251CA691CD05A0500A63B58 /* Build configuration list for PBXNativeTarget "VibhuGandikota" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D251CA6A1CD05A0500A63B58 /* Debug */,
+				D251CA6B1CD05A0500A63B58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D251CA6C1CD05A0500A63B58 /* Build configuration list for PBXNativeTarget "VibhuGandikotaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D251CA6D1CD05A0500A63B58 /* Debug */,
+				D251CA6E1CD05A0500A63B58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D251CA6F1CD05A0500A63B58 /* Build configuration list for PBXNativeTarget "VibhuGandikotaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D251CA701CD05A0500A63B58 /* Debug */,
+				D251CA711CD05A0500A63B58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D251CA391CD05A0500A63B58 /* Project object */;
+}

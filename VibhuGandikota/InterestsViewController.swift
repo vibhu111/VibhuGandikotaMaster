@@ -132,7 +132,7 @@ SlideText.backgroundColor = UIColor .clearColor()
         SlideText.textAlignment = NSTextAlignment.Justified
         self.view.addSubview(SlideText)
         //image.image = UIImage(named: "MusicYOCJ")
-        imageView.setImageInputs([ImageSource(image: UIImage(named: "bball")!), ImageSource(image: UIImage(named: "fball")!),ImageSource(image: UIImage(named: "reading")!), ImageSource(image: UIImage(named: "Physics")!)])
+        imageView.setImageInputs([ImageSource(image: UIImage(named: "bball")!), ImageSource(image: UIImage(named: "fball")!),ImageSource(image: UIImage(named: "reading")!), ImageSource(image: UIImage(named: "fll")!), ImageSource(image: UIImage(named: "germanLanguage")!)])
         imageView.sizeToFit()
         SlideText.textColor = UIColor.whiteColor()
         SlideText.alignmentRectForFrame(self.view.frame)
@@ -175,7 +175,7 @@ SlideText.backgroundColor = UIColor .clearColor()
             
         } else if imageView.pageControl.currentPage == 1{
             //var imm = "[Tap the image for more info...]"
-            var wiii = "I also play football. I like football as well, because like basketball it requires strategic thinking skills in order to land or catch a pass"
+            var wiii = "I enjoy playing football as well, because like basketball it requires strategic thinking skills in order to land or catch a pass"
             SlideText.text = wiii
             
             self.view.addSubview(SlideText)
@@ -189,12 +189,20 @@ SlideText.backgroundColor = UIColor .clearColor()
             
         } else if imageView.pageControl.currentPage == 3{
             // var imm = "[Tap the image for more info...]"
-            var wiii = "My passion for science drove me to learn about different scientific topics. I often enjoy studying physics, as it an fascinating subject"
+            var wiii = "Last summer my friends and I created a lego robotics team, and competed at state level"
+            
+            SlideText.text = wiii
+            self.view.addSubview(SlideText)
+            
+        } else if imageView.pageControl.currentPage == 4{
+            // var imm = "[Tap the image for more info...]"
+            var wiii = "“Sprechen Sie Deutsch?” means “Do You Speak German?”. I’ve learned to speak german over the past 2 years, as my second language, and I'd love to visit germany sometime soon"
             
             SlideText.text = wiii
             self.view.addSubview(SlideText)
             
         }
+
     
     
         

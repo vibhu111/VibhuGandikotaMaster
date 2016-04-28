@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="EgA-p3-OKG">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -59,13 +59,13 @@
                         <segue destination="w6v-fr-ojI" kind="modal" identifier="MusicSegue" modalTransitionStyle="crossDissolve" id="bcs-Ur-RRh"/>
                         <segue destination="7Lx-kV-oGY" kind="modal" identifier="AcademicsSegue" modalTransitionStyle="crossDissolve" id="G64-Ou-nyW"/>
                         <segue destination="hdU-2g-ZpR" kind="modal" identifier="InterestsSegue" modalTransitionStyle="crossDissolve" id="s7M-at-s9k"/>
-                        <segue destination="AR5-F9-CMB" kind="modal" identifier="AboutMeSegue" modalTransitionStyle="crossDissolve" id="54k-dT-ScB"/>
                         <segue destination="dQv-8T-hD9" kind="modal" identifier="MyAppsSegue" modalTransitionStyle="crossDissolve" id="o7G-yO-SJG"/>
+                        <segue destination="EgA-p3-OKG" kind="modal" identifier="AboutMeSegue" modalTransitionStyle="crossDissolve" id="QqO-L6-qxW"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hgg-bq-ngr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="212.26666666666665" y="680.65333333333331"/>
+            <point key="canvasLocation" x="514" y="428"/>
         </scene>
         <!--Fav Subjects View Controller-->
         <scene sceneID="N2l-op-RN9">
@@ -172,12 +172,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4c0-R1-Nja" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1366" y="-455"/>
+            <point key="canvasLocation" x="1380" y="-532"/>
         </scene>
         <!--About Me View Controller-->
         <scene sceneID="B7N-5z-Rci">
             <objects>
-                <viewController id="AR5-F9-CMB" customClass="AboutMeViewController" customModule="VibhuGandikota" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AboutMeViewController" id="AR5-F9-CMB" customClass="AboutMeViewController" customModule="VibhuGandikota" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="QSN-hg-GMZ"/>
                         <viewControllerLayoutGuide type="bottom" id="CZM-Qv-l9a"/>
@@ -193,7 +193,15 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fcz-23-Dl5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1785" y="-422"/>
+            <point key="canvasLocation" x="1358" y="-1286"/>
+        </scene>
+        <!--About Me Page View Controller-->
+        <scene sceneID="kP4-hJ-smy">
+            <objects>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="none" id="EgA-p3-OKG" customClass="AboutMePageViewController" customModule="VibhuGandikota" customModuleProvider="target" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZNH-3F-yrj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1857" y="-1185"/>
         </scene>
         <!--My Apps View Controller-->
         <scene sceneID="52L-zt-5yc">
@@ -358,9 +366,30 @@
             </objects>
             <point key="canvasLocation" x="59" y="-422"/>
         </scene>
+        <!--About Me2 View Controller-->
+        <scene sceneID="n3y-x0-ids">
+            <objects>
+                <viewController storyboardIdentifier="AboutMe2ViewController" id="hSY-Dq-WPl" customClass="AboutMe2ViewController" customModule="VibhuGandikota" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Anx-8f-Zzl"/>
+                        <viewControllerLayoutGuide type="bottom" id="z30-ct-ETp"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8x3-fc-9Ju">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <segue destination="HTi-5f-F2z" kind="modal" identifier="backToHomeAA" modalTransitionStyle="crossDissolve" id="84l-2D-hhN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kBB-pf-UJL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2301" y="-1384"/>
+        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="6bQ-BW-h8e"/>
         <segue reference="G64-Ou-nyW"/>
+        <segue reference="84l-2D-hhN"/>
     </inferredMetricsTieBreakers>
 </document>

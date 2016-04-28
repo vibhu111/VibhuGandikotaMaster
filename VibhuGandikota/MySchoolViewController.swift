@@ -13,6 +13,7 @@ class MySchoolViewController: UIViewController {
     override func viewDidAppear(animated: Bool) {
         setupHomeButton()
         setupScene()
+        self.view.backgroundColor = UIColor (patternImage: UIImage(named: "1-f.png")!)
 
     }
     

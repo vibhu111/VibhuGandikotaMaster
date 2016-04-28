@@ -30,6 +30,7 @@ class FavSubjectsViewController: UIViewController {
         setupHomeButton()
         setupScene()
         x = 0
+        
     }
     
     override func didReceiveMemoryWarning() {
@@ -59,7 +60,8 @@ class FavSubjectsViewController: UIViewController {
         // 3
         self.view.addSubview(blurView)
         
-        
+        self.view.backgroundColor = UIColor (patternImage: UIImage(named: "1-f.png")!)
+
         
         
         

@@ -9,7 +9,10 @@
 import UIKit
 import CLTypingLabel
 import Spring
+
 class ViewController: UIViewController {
+    @IBOutlet var shimmeringView: FBShimmeringView!
+
     var clockLabel = UILabel()
     var clockDateLabel = UILabel()
     var slideToContinueLabel = SpringLabel()
@@ -28,6 +31,7 @@ class ViewController: UIViewController {
         
         rightSwipe.direction = .Right
         
+      
         
         view.addGestureRecognizer(rightSwipe)
         /*let isFirstLaunch = NSUserDefaults.standardUserDefaults().valueForKey("isFirstLaunch") as? Bool
@@ -74,12 +78,11 @@ class ViewController: UIViewController {
         self.view.addSubview(clockLabel)
         clockDateLabel.text = convertDate2
         self.view.addSubview(clockDateLabel)
-        
         slideToContinueLabel.frame = CGRectMake(100, 100, CGRectGetMidX(self.view.frame), CGRectGetMidY(self.view.frame))
         slideToContinueLabel.textAlignment = NSTextAlignment.Center
         slideToContinueLabel.center = CGPointMake(CGRectGetMidX(self.view.frame), CGRectGetMidY(self.view.frame) + 225)
         slideToContinueLabel.textColor = UIColor.blackColor()
-        slideToContinueLabel.font = UIFont(name: "HelveticaNeue-Light", size: 20)
+        slideToContinueLabel.font = UIFont(name: "HelveticaNeue-Light", size: 24)
         slideToContinueLabel.text = "Slide to continue"
         updateClock()
         Label1.lineBreakMode = NSLineBreakMode.ByWordWrapping
@@ -278,13 +281,16 @@ class ViewController: UIViewController {
        print("slideWorking")
             slideToContinueLabel.animation = "flash"
             slideToContinueLabel.duration = 3
-            slideToContinueLabel.curve = "easeIn"
+           slideToContinueLabel.curve = "easeIn"
             slideToContinueLabel.animate()
             self.view.addSubview(slideToContinueLabel)
          timer2 = NSTimer.scheduledTimerWithTimeInterval(6, target: self, selector: #selector(ViewController.slideToUnlock), userInfo: nil, repeats: false)
-            
+       /* shimmeringView.contentView = slideToContinueLabel
+        shimmeringView.contentView.frame = CGRectMake(100, 100, CGRectGetMidX(self.view.frame), CGRectGetMidY(self.view.frame))
+        shimmeringView.contentView.center = CGPointMake(CGRectGetMidX(self.view.frame), CGRectGetMidY(self.view.frame) + 225)
+        shimmeringView.shimmering = true*/
 }
-            
+    
             
         
 

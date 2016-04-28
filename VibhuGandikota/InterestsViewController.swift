@@ -182,14 +182,14 @@ SlideText.backgroundColor = UIColor .clearColor()
             
         } else if imageView.pageControl.currentPage == 2{
            // var imm = "[Tap the image for more info...]"
-            var wiii = "I enjoy reading realistic fiction in my free time, along with nonfiction every once in awhile"
+            var wiii = "I enjoy reading nonfiction in my free time, along with realistic fiction every once in awhile"
             
             SlideText.text = wiii
             self.view.addSubview(SlideText)
             
         } else if imageView.pageControl.currentPage == 3{
             // var imm = "[Tap the image for more info...]"
-            var wiii = "My passion for science drove me to learn about different scientific topics. I often enjoy studying physics, as it quite fascinating "
+            var wiii = "My passion for science drove me to learn about different scientific topics. I often enjoy studying physics, as it an fascinating subject"
             
             SlideText.text = wiii
             self.view.addSubview(SlideText)

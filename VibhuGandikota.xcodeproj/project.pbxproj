@@ -39,11 +39,15 @@
 		D25068A51CD06284002AD04B /* scratchlang.png in Resources */ = {isa = PBXBuildFile; fileRef = D25068851CD06284002AD04B /* scratchlang.png */; };
 		D25068A61CD06284002AD04B /* subjects.png in Resources */ = {isa = PBXBuildFile; fileRef = D25068861CD06284002AD04B /* subjects.png */; };
 		D25068A71CD06284002AD04B /* swiftobjc.png in Resources */ = {isa = PBXBuildFile; fileRef = D25068871CD06284002AD04B /* swiftobjc.png */; };
-		D25068A81CD06284002AD04B /* tabla.png in Resources */ = {isa = PBXBuildFile; fileRef = D25068881CD06284002AD04B /* tabla.png */; };
 		D25068AA1CD063C4002AD04B /* 1-f.png in Resources */ = {isa = PBXBuildFile; fileRef = D25068A91CD063C4002AD04B /* 1-f.png */; };
 		D25068AC1CD064CE002AD04B /* tgms.png in Resources */ = {isa = PBXBuildFile; fileRef = D25068AB1CD064CE002AD04B /* tgms.png */; };
 		D25068AE1CD06585002AD04B /* YOCJ.png in Resources */ = {isa = PBXBuildFile; fileRef = D25068AD1CD06585002AD04B /* YOCJ.png */; };
 		D25068B01CD068A3002AD04B /* scipi12.png in Resources */ = {isa = PBXBuildFile; fileRef = D25068AF1CD068A3002AD04B /* scipi12.png */; };
+		D25068B61CD18827002AD04B /* 172.png in Resources */ = {isa = PBXBuildFile; fileRef = D25068B51CD18827002AD04B /* 172.png */; };
+		D25068B81CD18A1E002AD04B /* yocjvibhuimg-vid.png in Resources */ = {isa = PBXBuildFile; fileRef = D25068B71CD18A1E002AD04B /* yocjvibhuimg-vid.png */; };
+		D25068BA1CD18AEF002AD04B /* yocjvibhuimg-vid2.png in Resources */ = {isa = PBXBuildFile; fileRef = D25068B91CD18AEF002AD04B /* yocjvibhuimg-vid2.png */; };
+		D25068BF1CD196AB002AD04B /* Vibhu.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D25068BE1CD195EB002AD04B /* Vibhu.mp4 */; };
+		D25068C11CD19D6B002AD04B /* tabla.png in Resources */ = {isa = PBXBuildFile; fileRef = D25068C01CD19D6B002AD04B /* tabla.png */; };
 		D251CA5A1CD05A0500A63B58 /* VibhuGandikotaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D251CA591CD05A0500A63B58 /* VibhuGandikotaTests.swift */; };
 		D251CA651CD05A0500A63B58 /* VibhuGandikotaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D251CA641CD05A0500A63B58 /* VibhuGandikotaUITests.swift */; };
 		D251CAB21CD05B0E00A63B58 /* AboutMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D251CA771CD05B0E00A63B58 /* AboutMeViewController.swift */; };
@@ -119,11 +123,20 @@
 		D25068851CD06284002AD04B /* scratchlang.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scratchlang.png; sourceTree = "<group>"; };
 		D25068861CD06284002AD04B /* subjects.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = subjects.png; sourceTree = "<group>"; };
 		D25068871CD06284002AD04B /* swiftobjc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = swiftobjc.png; sourceTree = "<group>"; };
-		D25068881CD06284002AD04B /* tabla.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabla.png; sourceTree = "<group>"; };
 		D25068A91CD063C4002AD04B /* 1-f.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1-f.png"; sourceTree = "<group>"; };
 		D25068AB1CD064CE002AD04B /* tgms.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tgms.png; sourceTree = "<group>"; };
 		D25068AD1CD06585002AD04B /* YOCJ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YOCJ.png; sourceTree = "<group>"; };
 		D25068AF1CD068A3002AD04B /* scipi12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scipi12.png; sourceTree = "<group>"; };
+		D25068B11CD17DEC002AD04B /* VibhuGandikota-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VibhuGandikota-Bridging-Header.h"; sourceTree = "<group>"; };
+		D25068B21CD17F91002AD04B /* FBShimmering.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBShimmering.h; sourceTree = "<group>"; };
+		D25068B31CD17FA0002AD04B /* FBShimmeringLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBShimmeringLayer.h; sourceTree = "<group>"; };
+		D25068B41CD17FA7002AD04B /* FBShimmeringView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBShimmeringView.h; sourceTree = "<group>"; };
+		D25068B51CD18827002AD04B /* 172.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 172.png; sourceTree = "<group>"; };
+		D25068B71CD18A1E002AD04B /* yocjvibhuimg-vid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yocjvibhuimg-vid.png"; sourceTree = "<group>"; };
+		D25068B91CD18AEF002AD04B /* yocjvibhuimg-vid2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yocjvibhuimg-vid2.png"; sourceTree = "<group>"; };
+		D25068BD1CD19114002AD04B /* vibhu.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = vibhu.m4v; sourceTree = "<group>"; };
+		D25068BE1CD195EB002AD04B /* Vibhu.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Vibhu.mp4; sourceTree = "<group>"; };
+		D25068C01CD19D6B002AD04B /* tabla.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabla.png; sourceTree = "<group>"; };
 		D251CA411CD05A0500A63B58 /* VibhuGandikota.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VibhuGandikota.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D251CA551CD05A0500A63B58 /* VibhuGandikotaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VibhuGandikotaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D251CA591CD05A0500A63B58 /* VibhuGandikotaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VibhuGandikotaTests.swift; sourceTree = "<group>"; };
@@ -198,6 +211,11 @@
 		D25068681CD06284002AD04B /* untitled folder115 */ = {
 			isa = PBXGroup;
 			children = (
+				D25068BD1CD19114002AD04B /* vibhu.m4v */,
+				D25068B91CD18AEF002AD04B /* yocjvibhuimg-vid2.png */,
+				D25068BE1CD195EB002AD04B /* Vibhu.mp4 */,
+				D25068B71CD18A1E002AD04B /* yocjvibhuimg-vid.png */,
+				D25068B51CD18827002AD04B /* 172.png */,
 				D25068A91CD063C4002AD04B /* 1-f.png */,
 				D25068691CD06284002AD04B /* About Me.png */,
 				D250686A1CD06284002AD04B /* Academics.png */,
@@ -231,8 +249,8 @@
 				D25068841CD06284002AD04B /* scip.png */,
 				D25068851CD06284002AD04B /* scratchlang.png */,
 				D25068861CD06284002AD04B /* subjects.png */,
+				D25068C01CD19D6B002AD04B /* tabla.png */,
 				D25068871CD06284002AD04B /* swiftobjc.png */,
-				D25068881CD06284002AD04B /* tabla.png */,
 				D25068AB1CD064CE002AD04B /* tgms.png */,
 			);
 			path = "untitled folder115";
@@ -301,6 +319,10 @@
 				D251CAAB1CD05B0E00A63B58 /* TableViewCell.swift */,
 				D251CAAC1CD05B0E00A63B58 /* TableViewController.swift */,
 				D251CAAE1CD05B0E00A63B58 /* ViewController.swift */,
+				D25068B11CD17DEC002AD04B /* VibhuGandikota-Bridging-Header.h */,
+				D25068B21CD17F91002AD04B /* FBShimmering.h */,
+				D25068B41CD17FA7002AD04B /* FBShimmeringView.h */,
+				D25068B31CD17FA0002AD04B /* FBShimmeringLayer.h */,
 			);
 			path = VibhuGandikota;
 			sourceTree = "<group>";
@@ -412,8 +434,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D25068BF1CD196AB002AD04B /* Vibhu.mp4 in Resources */,
 				D250689D1CD06284002AD04B /* My Apps.png in Resources */,
+				D25068B61CD18827002AD04B /* 172.png in Resources */,
 				D25068B01CD068A3002AD04B /* scipi12.png in Resources */,
+				D25068C11CD19D6B002AD04B /* tabla.png in Resources */,
 				D25068A01CD06284002AD04B /* Programming.png in Resources */,
 				D25068991CD06284002AD04B /* math+sci.png in Resources */,
 				D25068961CD06284002AD04B /* Home.png in Resources */,
@@ -421,9 +446,9 @@
 				D250688D1CD06284002AD04B /* bpi.png in Resources */,
 				D250688F1CD06284002AD04B /* csi.png in Resources */,
 				D25068951CD06284002AD04B /* hbutton.png in Resources */,
-				D25068A81CD06284002AD04B /* tabla.png in Resources */,
 				D25068A31CD06284002AD04B /* schoolinside.png in Resources */,
 				D250688B1CD06284002AD04B /* bandSetting.png in Resources */,
+				D25068B81CD18A1E002AD04B /* yocjvibhuimg-vid.png in Resources */,
 				D25068A61CD06284002AD04B /* subjects.png in Resources */,
 				D25068AC1CD064CE002AD04B /* tgms.png in Resources */,
 				D25068A41CD06284002AD04B /* scip.png in Resources */,
@@ -436,6 +461,7 @@
 				D25068941CD06284002AD04B /* fi.png in Resources */,
 				D250689A1CD06284002AD04B /* MePic.png in Resources */,
 				D25068981CD06284002AD04B /* javalang.png in Resources */,
+				D25068BA1CD18AEF002AD04B /* yocjvibhuimg-vid2.png in Resources */,
 				D25068911CD06284002AD04B /* explorascreenshot.png in Resources */,
 				D25068931CD06284002AD04B /* ffi.png in Resources */,
 				D251CACE1CD05B0E00A63B58 /* Main.storyboard in Resources */,
@@ -679,6 +705,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Gandikota.VibhuGandikota;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "VibhuGandikota/VibhuGandikota-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -691,6 +718,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Gandikota.VibhuGandikota;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "VibhuGandikota/VibhuGandikota-Bridging-Header.h";
 			};
 			name = Release;
 		};

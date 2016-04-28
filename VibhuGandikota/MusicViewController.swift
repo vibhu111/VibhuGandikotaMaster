@@ -6,18 +6,39 @@
 //  Copyright © 2016 Vibhu Gandikota. All rights reserved.
 //
 
+import MediaPlayer
+
+import AVKit
+import AVFoundation
 import UIKit
 import ImageSlideshow
 class MusicViewController: UIViewController {
+    let image = ImageSlideshow()
+
+    
+    var moviePlayer : MPMoviePlayerController!
+
+    private var firstAppear = true
+
     override func viewDidAppear(animated: Bool) {
         setupHomeButton()
         
         setupScene()
-    }
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: "doneButtonClick:", name: MPMoviePlayerWillExitFullscreenNotification, object: nil)
 
+
+        
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    
+    func doneButtonClick(sender:NSNotification?){
+    
+        tick()
+    
     }
     
     func setupScene(){
@@ -28,9 +49,8 @@ class MusicViewController: UIViewController {
         //var logoImages = [imagee, imageeee]
         
         
+        image.frame = CGRectMake(CGRectGetMidX(self.view.frame), CGRectGetMidY(self.view.frame), 500, 250)
         
-        
-        let image = ImageSlideshow(frame: CGRectMake(CGRectGetMidX(self.view.frame), CGRectGetMidY(self.view.frame), 500, 250))
         let SlideText = UITextView()
         SlideText.frame = CGRectMake(CGRectGetMidX(self.view.frame), CGRectGetMidY(self.view.frame), 320, 320)
         SlideText.center = CGPointMake(CGRectGetMidX(self.view.frame), CGRectGetMaxY(self.view.frame) - 230 )
@@ -50,7 +70,7 @@ SlideText.editable = false
         SlideText.textAlignment = NSTextAlignment.Justified
         self.view.addSubview(SlideText)
         //image.image = UIImage(named: "MusicYOCJ")
-        image.setImageInputs([ImageSource(image: UIImage(named: "YOCJ")!), ImageSource(image: UIImage(named: "bandSetting")!),ImageSource(image: UIImage(named: "tabla")!)])
+        image.setImageInputs([ImageSource(image: UIImage(named: "YOCJ")!), ImageSource(image: UIImage(named: "172")!),ImageSource(image: UIImage(named: "yocjvibhuimg-vid2")!), ImageSource(image: UIImage(named: "tabla")!)])
         image.sizeToFit()
         
         SlideText.alignmentRectForFrame(self.view.frame)
@@ -64,8 +84,27 @@ SlideText.editable = false
         image.pageControl.currentPageIndicatorTintColor = UIColor.whiteColor();
         image.pageControl.pageIndicatorTintColor = UIColor.blackColor();
         
+        var tap = UITapGestureRecognizer(target: self, action: Selector("tappedMe"))
+        image.addGestureRecognizer(tap)
+        image.userInteractionEnabled = true
+        
         
     }
+    
+    
+    
+    
+    func tappedMe(){
+    
+        if image.pageControl.currentPage == 2{
+            playMovie()
+        }
+    
+    
+    
+    }
+    
+    
     
     
     
@@ -112,5 +151,37 @@ SlideText.editable = false
         // Pass the selected object to the new view controller.
     }
     */
+
+    func playMovie(){
+    
+        
+        let path = NSBundle.mainBundle().pathForResource("Vibhu", ofType:"mp4")
+        let url = NSURL.fileURLWithPath(path!)
+        
+        moviePlayer = MPMoviePlayerController(contentURL: url)
+        
+        moviePlayer.view.frame = CGRect(x: 0, y: 0, width: self.view.frame.size.width, height: self.view.frame.size.height)
+        
+        moviePlayer.view.sizeToFit()
+        
+        self.view.addSubview(moviePlayer.view)
+        
+        moviePlayer.fullscreen = true
+        
+        moviePlayer.controlStyle = MPMovieControlStyle.Embedded
+        
+      
+        
+            }
+    
+    
+   
+    func tick(){
+        self.view.subviews[self.view.subviews.count-1].removeFromSuperview()
+
+        
+    }
+    
+
 
 }

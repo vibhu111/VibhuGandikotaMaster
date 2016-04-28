@@ -10,7 +10,7 @@ import UIKit
 import Spring
 class AboutMe2ViewController: UIViewController {
     var imageView = SpringImageView()
-    
+    var pageControl = UIPageControl()
     var text = ["Name","Age","Favorite Color", "Favorite Sports Team", "Favorite Language"]
     var answers = ["Vibhu Gandikota", "14", "Orange", "Green Bay Packers", "Swift!!"]
     
@@ -83,7 +83,7 @@ class AboutMe2ViewController: UIViewController {
         
         
         imageView.frame = CGRectMake(CGRectGetMidX(self.view.frame), CGRectGetMidY(self.view.frame), 400, 280)
-        imageView.center = CGPointMake(CGRectGetMidX(self.view.frame) , CGRectGetMaxY(self.view.frame) - 190 )
+        imageView.center = CGPointMake(CGRectGetMidX(self.view.frame) , CGRectGetMaxY(self.view.frame) - 220 )
         imageView.image = UIImage(named: "familyVibhu.png")
         imageView.alignmentRectForFrame(self.view.frame)
         self.view.addSubview(imageView)
@@ -92,10 +92,18 @@ class AboutMe2ViewController: UIViewController {
         imageView.duration = 2
         imageView.animate()
         
+        pageControl.frame = CGRectMake(CGRectGetMidX(self.view.frame), CGRectGetMidY(self.view.frame), 40, 40)
+        pageControl.center = CGPointMake(CGRectGetMidX(self.view.frame) , CGRectGetMaxY(self.view.frame) - 195 )
+        pageControl.alignmentRectForFrame(self.view.frame)
+        pageControl.currentPageIndicatorTintColor = UIColor.whiteColor()
+        pageControl.pageIndicatorTintColor = UIColor.grayColor()
+        pageControl.numberOfPages = 2
+        pageControl.currentPage = 1
+        self.view.addSubview(pageControl)
         
         var Label1 = SpringLabel()
         
-        Label1.frame = CGRectMake(CGRectGetMidX(self.view.frame), CGRectGetMidY(self.view.frame), 250, 275)
+        Label1.frame = CGRectMake(CGRectGetMidX(self.view.frame), CGRectGetMidY(self.view.frame), 300, 275)
         Label1.center = CGPointMake(CGRectGetMidX(self.view.frame) , CGRectGetMinY(self.view.frame) + 25 )
         Label1.backgroundColor = UIColor.clearColor()
         Label1.textColor = UIColor.whiteColor()
@@ -113,7 +121,7 @@ class AboutMe2ViewController: UIViewController {
         
         var Label1p = SpringLabel()
         
-        Label1p.frame = CGRectMake(CGRectGetMidX(self.view.frame), CGRectGetMidY(self.view.frame), 250, 275)
+        Label1p.frame = CGRectMake(CGRectGetMidX(self.view.frame), CGRectGetMidY(self.view.frame), 300, 275)
         Label1p.center = CGPointMake(CGRectGetMidX(self.view.frame) , CGRectGetMinY(self.view.frame) + 60 )
         Label1p.backgroundColor = UIColor.clearColor()
         Label1p.textColor = UIColor.whiteColor()
@@ -206,7 +214,7 @@ class AboutMe2ViewController: UIViewController {
         
         
         
-        /*var Label4 = SpringLabel()
+        var Label4 = SpringLabel()
          
          Label4.frame = CGRectMake(CGRectGetMidX(self.view.frame), CGRectGetMidY(self.view.frame), 220, 275)
          Label4.center = CGPointMake(CGRectGetMidX(self.view.frame) , CGRectGetMinY(self.view.frame) + 265 )
@@ -215,7 +223,7 @@ class AboutMe2ViewController: UIViewController {
          
          Label4.font = UIFont(name: "Avenir-Black", size: 22)
          Label4.textAlignment = NSTextAlignment.Center
-         Label4.text = "Favorite Language:"
+         Label4.text = "My Family:"
          self.view.addSubview(Label4)
          Label4.alignmentRectForFrame(self.view.frame)
          Label4.animation = "fadeInUp"
@@ -224,7 +232,7 @@ class AboutMe2ViewController: UIViewController {
          Label4.duration = 2
          Label4.animate()
          var Label4p = SpringLabel()
-         
+        /*
          Label4p.frame = CGRectMake(CGRectGetMidX(self.view.frame), CGRectGetMidY(self.view.frame), 200, 275)
          Label4p.center = CGPointMake(CGRectGetMidX(self.view.frame) , CGRectGetMinY(self.view.frame) + 300 )
          Label4p.backgroundColor = UIColor.clearColor()
@@ -240,7 +248,7 @@ class AboutMe2ViewController: UIViewController {
          Label4p.duration = 2
          Label4p.animate()
          
-         */
+        */
         
         
     }

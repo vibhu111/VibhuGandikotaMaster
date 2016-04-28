@@ -198,7 +198,7 @@
         <!--About Me Page View Controller-->
         <scene sceneID="kP4-hJ-smy">
             <objects>
-                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="none" id="EgA-p3-OKG" customClass="AboutMePageViewController" customModule="VibhuGandikota" customModuleProvider="target" sceneMemberID="viewController"/>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="EgA-p3-OKG" customClass="AboutMePageViewController" customModule="VibhuGandikota" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZNH-3F-yrj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1857" y="-1185"/>

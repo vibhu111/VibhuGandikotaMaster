@@ -9,9 +9,17 @@
 import UIKit
 import Spring
 import ImageSlideshow
-
+var st5 = 0
 class AboutMeViewController: UIViewController {
+    var homebuttonImage = UIImageView()
+    var Label1 = SpringLabel()
+    var Label1p = SpringLabel()
+    var Label2 = SpringLabel()
+    var Label2p = SpringLabel()
+    var Label3 = SpringLabel()
+    var Label3p = SpringLabel()
     var imageView = SpringImageView()
+    var pageControl = UIPageControl()
 
     var text = ["Name","Age","Favorite Color", "Favorite Sports Team", "Favorite Language"]
     var answers = ["Vibhu Gandikota", "14", "Orange", "Green Bay Packers", "Swift!!"]
@@ -22,17 +30,39 @@ class AboutMeViewController: UIViewController {
 
     
         // Do any additional setup after loading the view.
-        setupScene()
 
-        
+        st5 = 1
         
     }
     
     override func viewDidAppear(animated: Bool) {
+        self.Label1.removeFromSuperview()
+        self.imageView.removeFromSuperview()
+        self.Label1p.removeFromSuperview()
+        self.Label2.removeFromSuperview()
+        self.Label2p.removeFromSuperview()
+        self.Label3.removeFromSuperview()
+        self.Label3p.removeFromSuperview()
+        self.homebuttonImage.removeFromSuperview()
+
+        setupScene()
 
     }
     
 
+    override func viewDidDisappear(animated: Bool) {
+        
+        self.Label1.removeFromSuperview()
+        self.imageView.removeFromSuperview()
+        self.Label1p.removeFromSuperview()
+        self.Label2.removeFromSuperview()
+        self.Label2p.removeFromSuperview()
+        self.Label3.removeFromSuperview()
+        self.Label3p.removeFromSuperview()
+        self.homebuttonImage.removeFromSuperview()
+    }
+
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -40,22 +70,23 @@ class AboutMeViewController: UIViewController {
     
     
     func setupScene(){
+        if st5 == 1{
         self.view.backgroundColor = UIColor(patternImage: UIImage(named: "1-f.png")!)
-
+        
         var darkBlur = UIBlurEffect(style: UIBlurEffectStyle.Dark)
         // 2
         var blurView = UIVisualEffectView(effect: darkBlur)
         blurView.frame = self.view.bounds
-        // 3       
+        // 3
         self.view.willRemoveSubview(blurView)
-
+        
         self.view.addSubview(blurView)
+            st5 = 0
         
-        
+        }
         
         //HOMEBUTTON
-        var homebuttonImage = UIImageView(frame: CGRectMake(CGRectGetMidX(self.view.frame), CGRectGetMidY(self.view.frame), 650, 50))
-        
+        homebuttonImage.frame = CGRectMake(CGRectGetMidX(self.view.frame), CGRectGetMidY(self.view.frame), 650, 50)
         
         homebuttonImage.image = UIImage(named: "Home.png")
         self.view.addSubview(homebuttonImage)
@@ -63,14 +94,14 @@ class AboutMeViewController: UIViewController {
         
         homeButton.frame = (frame: CGRectMake(CGRectGetMidX(self.view.frame), CGRectGetMidY(self.view.frame), 60, 60))
         homeButton.center = CGPointMake(CGRectGetMidX(self.view.frame), CGRectGetMaxY(self.view.frame) - 22.5)
-        self.view.addSubview(homeButton)
         homeButton.addTarget(self, action: "homeButtonTouched", forControlEvents: .TouchUpInside)
         
         homebuttonImage.alignmentRectForFrame(self.view.frame)
         homeButton.alignmentRectForFrame(self.view.frame)
         
-
         
+        self.view.addSubview(homeButton)
+
         
         
         
@@ -82,7 +113,27 @@ class AboutMeViewController: UIViewController {
         
         
         
-
+        
+        imageView.frame = CGRectMake(CGRectGetMidX(self.view.frame), CGRectGetMidY(self.view.frame), 210, 280)
+        imageView.center = CGPointMake(CGRectGetMidX(self.view.frame) , CGRectGetMaxY(self.view.frame) - 240 )
+        imageView.image = UIImage(named: "MePic.png")
+        imageView.alignmentRectForFrame(self.view.frame)
+        self.view.addSubview(imageView)
+        imageView.animation = "fadeInUp"
+        imageView.curve = "easeIn"
+        imageView.duration = 2
+        imageView.animate()
+        
+        pageControl.frame = CGRectMake(CGRectGetMidX(self.view.frame), CGRectGetMidY(self.view.frame), 50, 50)
+        pageControl.center = CGPointMake(CGRectGetMidX(self.view.frame) , CGRectGetMaxY(self.view.frame) - 75 )
+        pageControl.alignmentRectForFrame(self.view.frame)
+        pageControl.currentPageIndicatorTintColor = UIColor.whiteColor()
+        pageControl.pageIndicatorTintColor = UIColor.grayColor()
+        pageControl.numberOfPages = 2
+        pageControl.currentPage = 0
+        self.view.addSubview(pageControl)
+        
+        /*
         imageView.frame = CGRectMake(CGRectGetMidX(self.view.frame), CGRectGetMidY(self.view.frame), 210, 280)
         imageView.center = CGPointMake(CGRectGetMidX(self.view.frame) , CGRectGetMaxY(self.view.frame) - 265 )
         imageView.image = UIImage(named: "MePic.png")
@@ -94,7 +145,20 @@ class AboutMeViewController: UIViewController {
         imageView.animate()
 
         
-        var Label1 = SpringLabel()
+        
+        // 
+        pageControl.frame = CGRectMake(CGRectGetMidX(self.view.frame), CGRectGetMidY(self.view.frame),1, 1)
+        pageControl.center = CGPointMake(CGRectGetMidX(self.view.frame) , CGRectGetMaxY(self.view.frame) - 75 )
+        pageControl.alignmentRectForFrame(self.view.frame)
+        pageControl.currentPageIndicatorTintColor = UIColor.whiteColor()
+        pageControl.pageIndicatorTintColor = UIColor.grayColor()
+        pageControl.numberOfPages = 2
+        pageControl.currentPage = 0
+        self.view.addSubview(pageControl)
+
+        
+        */
+        
         
         Label1.frame = CGRectMake(CGRectGetMidX(self.view.frame), CGRectGetMidY(self.view.frame), 120, 275)
         Label1.center = CGPointMake(CGRectGetMidX(self.view.frame) , CGRectGetMinY(self.view.frame) + 25 )
@@ -111,8 +175,7 @@ class AboutMeViewController: UIViewController {
         Label1.delay = 1
         Label1.duration = 2
         Label1.animate()
-        
-        var Label1p = SpringLabel()
+       
         
         Label1p.frame = CGRectMake(CGRectGetMidX(self.view.frame), CGRectGetMidY(self.view.frame), 200, 275)
         Label1p.center = CGPointMake(CGRectGetMidX(self.view.frame) , CGRectGetMinY(self.view.frame) + 60 )
@@ -129,8 +192,7 @@ class AboutMeViewController: UIViewController {
         Label1p.delay = 2
         Label1p.duration = 2
         Label1p.animate()
-        
-        var Label2 = SpringLabel()
+       
         
         Label2.frame = CGRectMake(CGRectGetMidX(self.view.frame), CGRectGetMidY(self.view.frame), 120, 275)
         Label2.center = CGPointMake(CGRectGetMidX(self.view.frame) , CGRectGetMinY(self.view.frame) + 105 )
@@ -148,8 +210,6 @@ class AboutMeViewController: UIViewController {
         Label2.duration = 2
         Label2.animate()
         
-        var Label2p = SpringLabel()
-        
         Label2p.frame = CGRectMake(CGRectGetMidX(self.view.frame), CGRectGetMidY(self.view.frame), 200, 275)
         Label2p.center = CGPointMake(CGRectGetMidX(self.view.frame) , CGRectGetMinY(self.view.frame) + 140 )
         Label2p.backgroundColor = UIColor.clearColor()
@@ -165,10 +225,7 @@ class AboutMeViewController: UIViewController {
         Label2p.duration = 2
         Label2p.animate()
         
-        
-        var Label3 = SpringLabel()
-        
-        Label3.frame = CGRectMake(CGRectGetMidX(self.view.frame), CGRectGetMidY(self.view.frame), 200, 275)
+               Label3.frame = CGRectMake(CGRectGetMidX(self.view.frame), CGRectGetMidY(self.view.frame), 200, 275)
         Label3.center = CGPointMake(CGRectGetMidX(self.view.frame) , CGRectGetMinY(self.view.frame) + 185 )
         Label3.backgroundColor = UIColor.clearColor()
         Label3.textColor = UIColor.whiteColor()
@@ -185,8 +242,7 @@ class AboutMeViewController: UIViewController {
         Label3.duration = 2
         Label3.animate()
         
-
-        var Label3p = SpringLabel()
+      
         
         Label3p.frame = CGRectMake(CGRectGetMidX(self.view.frame), CGRectGetMidY(self.view.frame), 200, 275)
         Label3p.center = CGPointMake(CGRectGetMidX(self.view.frame) , CGRectGetMinY(self.view.frame) + 220 )
@@ -273,7 +329,7 @@ class AboutMeViewController: UIViewController {
         
         
         
-         imageView.frame = CGRectMake(CGRectGetMidX(self.view.frame), CGRectGetMidY(self.view.frame), 210, 280)
+         //imageView.frame = CGRectMake(CGRectGetMidX(self.view.frame), CGRectGetMidY(self.view.frame), 210, 280)
         
         
         
@@ -284,6 +340,7 @@ class AboutMeViewController: UIViewController {
         print("Functioning Preperly")
         
         performSegueWithIdentifier("backToHomeAA", sender: self)
+        self.removeFromParentViewController()
     }
     
     override func prefersStatusBarHidden() -> Bool {

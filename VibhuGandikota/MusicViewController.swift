@@ -54,12 +54,12 @@ class MusicViewController: UIViewController {
         let SlideText = UITextView()
         SlideText.frame = CGRectMake(CGRectGetMidX(self.view.frame), CGRectGetMidY(self.view.frame), 320, 320)
         SlideText.center = CGPointMake(CGRectGetMidX(self.view.frame), CGRectGetMaxY(self.view.frame) - 230 )
-        let musicExcerpt = "My craving to play music provoked me to attempt to learn an instrument at a very young age. I decided to go into percussion. At the time, I didn't really know I was going to be learning percussion, instead I thought that I would be able to make music by attacking different drums with a stick."
+        let musicExcerpt = "My craving to play music provoked me to attempt to learn how to play an instrument at a very young age. I decided to learn percussion. At the time, I didn't really know that I was going to be learning percussion, instead I thought that I would be able to make music by attacking different drums with a stick."
         
         
-        let text2 = "As I entered the 6th grade, I joined a group of musicians known as the Youth Orchestra of Central Jersey (YOCJ). In this group, I met many new people, and joined a new class in order to better advance my skills as not only a drummer, but a full percussionist."
+        let text2 = "As I entered the 6th grade, I joined a group of musicians known as the Youth Orchestra of Central Jersey (YOCJ). In this group, I met many new people, and joined a new class in order to better advance my skills as not only a drummer, but a well rounded percussionist."
        
-        let text4 = " I also learned how to play Tabla, which is an indian drum. I always envied the way tabla sounded, and so I decided to start learning tabla along with my other percussion instruments. "
+        let text4 = " I also learned how to play tabla, which is an indian drum. I always envied the way tabla sounded, and so I decided to start learning tabla along with my other percussion instruments. "
         
         let text5 = "This is where I am today. Music is a part of my life, because I have always enjoyed the experience of being able to play music. It truly is one of my favorite hobbies."
 SlideText.editable = false

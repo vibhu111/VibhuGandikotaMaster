@@ -306,34 +306,36 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="524"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" rowHeight="250" id="53b-Z2-UZh" customClass="TableViewCell" customModule="VibhuGandikota" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="320" height="250"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" rowHeight="350" id="53b-Z2-UZh" customClass="TableViewCell" customModule="VibhuGandikota" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="320" height="350"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="center" tableViewCell="53b-Z2-UZh" id="PsA-1u-i7M">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="249.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="350"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gfU-NZ-zKy">
-                                                    <rect key="frame" x="0.0" y="157" width="320" height="109"/>
+                                                    <rect key="frame" x="0.0" y="157" width="320" height="193"/>
                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="height" constant="109" id="tTY-ZV-YuS"/>
+                                                        <constraint firstAttribute="height" constant="193" id="62w-4e-FNd"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="12"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                 </textView>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="CWA-Kx-SNI">
                                                     <rect key="frame" x="0.0" y="-33" width="320" height="192"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="192" id="qlM-9i-eZ5"/>
+                                                    </constraints>
                                                 </imageView>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstAttribute="trailing" secondItem="gfU-NZ-zKy" secondAttribute="trailing" id="1R7-Cr-mMW"/>
-                                                <constraint firstItem="CWA-Kx-SNI" firstAttribute="trailing" secondItem="gfU-NZ-zKy" secondAttribute="trailing" id="IW3-Zb-Cy7"/>
-                                                <constraint firstItem="CWA-Kx-SNI" firstAttribute="leading" secondItem="gfU-NZ-zKy" secondAttribute="leading" id="KZX-3U-lzr"/>
-                                                <constraint firstItem="gfU-NZ-zKy" firstAttribute="leading" secondItem="PsA-1u-i7M" secondAttribute="leading" id="WpH-wv-Ox5"/>
-                                                <constraint firstAttribute="bottomMargin" secondItem="CWA-Kx-SNI" secondAttribute="bottom" constant="82.5" id="bhU-pK-ahL"/>
-                                                <constraint firstItem="CWA-Kx-SNI" firstAttribute="top" secondItem="PsA-1u-i7M" secondAttribute="topMargin" constant="-41" id="qQk-YG-Mni"/>
-                                                <constraint firstAttribute="bottomMargin" secondItem="gfU-NZ-zKy" secondAttribute="bottom" constant="-24.5" id="tsm-3h-Ntd"/>
+                                                <constraint firstItem="gfU-NZ-zKy" firstAttribute="leading" secondItem="CWA-Kx-SNI" secondAttribute="leading" id="0hp-uD-1zs"/>
+                                                <constraint firstItem="gfU-NZ-zKy" firstAttribute="trailing" secondItem="CWA-Kx-SNI" secondAttribute="trailing" id="0ps-hL-TXG"/>
+                                                <constraint firstItem="CWA-Kx-SNI" firstAttribute="top" secondItem="PsA-1u-i7M" secondAttribute="topMargin" constant="-41" id="66R-ro-AL7"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="gfU-NZ-zKy" secondAttribute="bottom" constant="-8.5" id="NY1-ia-FII"/>
+                                                <constraint firstAttribute="trailing" secondItem="gfU-NZ-zKy" secondAttribute="trailing" id="Vk8-5N-emL"/>
+                                                <constraint firstItem="gfU-NZ-zKy" firstAttribute="leading" secondItem="PsA-1u-i7M" secondAttribute="leading" id="haG-5Z-OuE"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
@@ -390,6 +392,6 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="G64-Ou-nyW"/>
-        <segue reference="6bQ-BW-h8e"/>
+        <segue reference="STv-jV-EYI"/>
     </inferredMetricsTieBreakers>
 </document>

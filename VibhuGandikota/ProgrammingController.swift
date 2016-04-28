@@ -18,7 +18,7 @@ class ProgrammingController: UIViewController, UITableViewDelegate, UITableViewD
     
     var images = ["scratchlang.png", "ruby.png", "javalang.png", "swiftobjc.png"]
     
-    var subText  = ["I started programming with Scratch. Learning and using the scratch programming language was extremely easy, and so I decided to start and look into a more complicated language.", "I learned the basics of programming through Ruby. It helped me understand the concept and got me very excited to learn and explore other languages and other ways of programming.", "I started learning java when I got my first Windows laptop. I had learned about the complexity involved with it, and I was intrigued by the possibility of advancing my programming skills.", "I began learning Objective-C because I had always wanted to develop something for IOS. Soon after my minimal understanding of the language, Swift 1.0 was released. I was able to quickly use swift as it was much more intuitive, and I haven't stopped using it!"]
+    var subText  = ["I started programming with Scratch. Learning and using the scratch programming language was extremely easy, and so I decided to start and look into a more complicated language.", "I learned the basics of programming through Ruby. It helped me understand the main concepts and got me very excited to learn and explore other languages and other ways of programming.", "I started learning java when I got my first Windows laptop. I had learned about the complexity involved with it, and I was intrigued by the possibility of advancing my programming skills.", "I began learning Objective-C because I had always wanted to develop something for IOS. Soon after my minimal understanding of the language, Swift 1.0 was released. I was able to quickly use swift as it was much more intuitive, and I haven't stopped using it!"]
     override func viewDidLoad() {
         super.viewDidLoad()
         //Setup scene here...
@@ -27,7 +27,7 @@ class ProgrammingController: UIViewController, UITableViewDelegate, UITableViewD
         tableView.delegate = self
         tableView.dataSource = self
         
-self.tableView.rowHeight = 250
+self.tableView.rowHeight = 350
         //setupScene()
         
         
@@ -56,6 +56,7 @@ self.tableView.rowHeight = 250
         cell.imageViewW.image = UIImage (named: images[indexPath.row])
         //cell.TextView.font = UIFont(name: "Avenir Next", size: 12)
         cell.TextView.text = subText[indexPath.row]
+        cell.TextView.textAlignment = NSTextAlignment.Justified
        // var imageView = UIImageView(frame: CGRectMake(100, 150, 320, 130)); // set as you want
         //var image = UIImage(named: "kidsrubyimg.png")
        //imageView.image = image[row]

@@ -19,7 +19,7 @@ class TableViewCell: UITableViewCell {
     @IBOutlet weak var TextView: UITextView!
     override func setSelected(selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-TextView.font = UIFont(name: "Avenir Next", size: 12)
+TextView.font = UIFont(name: "Avenir Next", size: 18)
         // Configure the view for the selected state
         
         

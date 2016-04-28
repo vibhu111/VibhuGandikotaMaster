@@ -8,8 +8,11 @@
 
 import UIKit
 import Spring
+import ImageSlideshow
+
 class AboutMeViewController: UIViewController {
-    
+    var imageView = SpringImageView()
+
     var text = ["Name","Age","Favorite Color", "Favorite Sports Team", "Favorite Language"]
     var answers = ["Vibhu Gandikota", "14", "Orange", "Green Bay Packers", "Swift!!"]
     
@@ -78,7 +81,6 @@ class AboutMeViewController: UIViewController {
         
         
         
-        var imageView = SpringImageView()
 
         imageView.frame = CGRectMake(CGRectGetMidX(self.view.frame), CGRectGetMidY(self.view.frame), 210, 280)
         imageView.center = CGPointMake(CGRectGetMidX(self.view.frame) , CGRectGetMaxY(self.view.frame) - 190 )
@@ -241,8 +243,8 @@ class AboutMeViewController: UIViewController {
         
         
     }
-    
-    
+   
+   
     
     /*
      // Override to support conditional editing of the table view.
@@ -267,6 +269,12 @@ class AboutMeViewController: UIViewController {
     
     
     func setupHomeButton(){
+        
+        
+        
+         imageView.frame = CGRectMake(CGRectGetMidX(self.view.frame), CGRectGetMidY(self.view.frame), 210, 280)
+        
+        
         
     }
 

@@ -99,7 +99,9 @@ SlideText.editable = false
         if image.pageControl.currentPage == 2{
             playMovie()
         }
-    
+        if image.pageControl.currentPage == 3{
+            playMovie2()
+        }
     
     
     }
@@ -174,6 +176,30 @@ SlideText.editable = false
         
             }
     
+    
+    
+    func playMovie2(){
+        
+        
+        let path = NSBundle.mainBundle().pathForResource("tablamov", ofType:"m4v")
+        let url = NSURL.fileURLWithPath(path!)
+        
+        moviePlayer = MPMoviePlayerController(contentURL: url)
+        
+        moviePlayer.view.frame = CGRect(x: 0, y: 0, width: self.view.frame.size.width, height: self.view.frame.size.height)
+        
+        moviePlayer.view.sizeToFit()
+        
+        self.view.addSubview(moviePlayer.view)
+        
+        moviePlayer.fullscreen = true
+        
+        moviePlayer.controlStyle = MPMovieControlStyle.Embedded
+        
+        
+        
+    }
+
     
    
     func tick(){

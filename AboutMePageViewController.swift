@@ -20,6 +20,11 @@ class AboutMePageViewController: UIPageViewController {
         dataSource = self
         
         
+       
+    }
+    
+    
+    override func viewDidAppear(animated: Bool) {
         if let firstViewController = orderedViewControllers.first {
             setViewControllers([firstViewController],
                                direction: .Forward,

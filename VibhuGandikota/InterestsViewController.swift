@@ -189,7 +189,7 @@ SlideText.backgroundColor = UIColor .clearColor()
             
         } else if imageView.pageControl.currentPage == 3{
             // var imm = "[Tap the image for more info...]"
-            var wiii = "Last summer my friends and I created a lego robotics team, and competed at state level"
+            var wiii = "Last summer my friends and I created a lego robotics team. We competed at the state levels for the First Lego League Competition"
             
             SlideText.text = wiii
             self.view.addSubview(SlideText)

@@ -118,7 +118,7 @@ homebuttonImage.frame = CGRectMake(CGRectGetMidX(self.view.frame), CGRectGetMidY
         imageView.image = UIImage(named: "familyVibhu.png")
         imageView.alignmentRectForFrame(self.view.frame)
         self.view.addSubview(imageView)
-        imageView.animation = "fadeInUp"
+        imageView.animation = "fadeInDown"
         imageView.curve = "easeIn"
         imageView.duration = 2
         imageView.animate()
@@ -143,7 +143,7 @@ homebuttonImage.frame = CGRectMake(CGRectGetMidX(self.view.frame), CGRectGetMidY
         Label1.text = "My Basketball Team:"
         self.view.addSubview(Label1)
         Label1.alignmentRectForFrame(self.view.frame)
-        Label1.animation = "fadeInUp"
+        Label1.animation = "fadeInDown"
         Label1.curve = "easeIn"
         Label1.delay = 1
         Label1.duration = 2
@@ -161,7 +161,7 @@ homebuttonImage.frame = CGRectMake(CGRectGetMidX(self.view.frame), CGRectGetMidY
         Label1p.alignmentRectForFrame(self.view.frame)
         self.view.addSubview(Label1p)
         Label1p.alignmentRectForFrame(self.view.frame)
-        Label1p.animation = "fadeInUp"
+        Label1p.animation = "fadeInDown"
         Label1p.curve = "easeIn"
         Label1p.delay = 2
         Label1p.duration = 2
@@ -179,7 +179,7 @@ homebuttonImage.frame = CGRectMake(CGRectGetMidX(self.view.frame), CGRectGetMidY
         Label2.text = "My Football Team:"
         self.view.addSubview(Label2)
         Label2.alignmentRectForFrame(self.view.frame)
-        Label2.animation = "fadeInUp"
+        Label2.animation = "fadeInDown"
         Label2.curve = "easeIn"
         Label2.delay = 3
         Label2.duration = 2
@@ -196,7 +196,7 @@ homebuttonImage.frame = CGRectMake(CGRectGetMidX(self.view.frame), CGRectGetMidY
         Label2p.text = "Green Bay Packers"
         Label2p.alignmentRectForFrame(self.view.frame)
         self.view.addSubview(Label2p)
-        Label2p.animation = "fadeInUp"
+        Label2p.animation = "fadeInDown"
         Label2p.curve = "easeIn"
         Label2p.delay = 4
         Label2p.duration = 2
@@ -215,7 +215,7 @@ homebuttonImage.frame = CGRectMake(CGRectGetMidX(self.view.frame), CGRectGetMidY
         self.view.addSubview(Label3)
         Label3.alignmentRectForFrame(self.view.frame)
         
-        Label3.animation = "fadeInUp"
+        Label3.animation = "fadeInDown"
         Label3.curve = "easeIn"
         Label3.delay = 5
         Label3.duration = 2
@@ -234,7 +234,7 @@ homebuttonImage.frame = CGRectMake(CGRectGetMidX(self.view.frame), CGRectGetMidY
         Label3p.alignmentRectForFrame(self.view.frame)
         self.view.addSubview(Label3p)
         
-        Label3p.animation = "fadeInUp"
+        Label3p.animation = "fadeInDown"
         Label3p.curve = "easeIn"
         Label3p.delay = 6
         Label3p.duration = 2
@@ -253,7 +253,7 @@ homebuttonImage.frame = CGRectMake(CGRectGetMidX(self.view.frame), CGRectGetMidY
          Label4.text = "My Family:"
          self.view.addSubview(Label4)
          Label4.alignmentRectForFrame(self.view.frame)
-         Label4.animation = "fadeInUp"
+         Label4.animation = "fadeInDown"
          Label4.curve = "easeIn"
          Label4.delay = 7
          Label4.duration = 2

@@ -133,7 +133,6 @@ class ViewController: UIViewController {
         NSTimer.scheduledTimerWithTimeInterval(1.5, target: self, selector: "introScenep2", userInfo: nil, repeats: false)
         
         
-        
     }
     
     

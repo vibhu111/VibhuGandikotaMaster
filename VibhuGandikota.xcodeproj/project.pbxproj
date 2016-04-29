@@ -44,7 +44,6 @@
 		D25068AE1CD06585002AD04B /* YOCJ.png in Resources */ = {isa = PBXBuildFile; fileRef = D25068AD1CD06585002AD04B /* YOCJ.png */; };
 		D25068B01CD068A3002AD04B /* scipi12.png in Resources */ = {isa = PBXBuildFile; fileRef = D25068AF1CD068A3002AD04B /* scipi12.png */; };
 		D25068B61CD18827002AD04B /* 172.png in Resources */ = {isa = PBXBuildFile; fileRef = D25068B51CD18827002AD04B /* 172.png */; };
-		D25068B81CD18A1E002AD04B /* yocjvibhuimg-vid.png in Resources */ = {isa = PBXBuildFile; fileRef = D25068B71CD18A1E002AD04B /* yocjvibhuimg-vid.png */; };
 		D25068BA1CD18AEF002AD04B /* yocjvibhuimg-vid2.png in Resources */ = {isa = PBXBuildFile; fileRef = D25068B91CD18AEF002AD04B /* yocjvibhuimg-vid2.png */; };
 		D25068BF1CD196AB002AD04B /* Vibhu.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D25068BE1CD195EB002AD04B /* Vibhu.mp4 */; };
 		D25068C81CD1A63E002AD04B /* familyimg.png in Resources */ = {isa = PBXBuildFile; fileRef = D25068C71CD1A63E002AD04B /* familyimg.png */; };
@@ -139,9 +138,7 @@
 		D25068B31CD17FA0002AD04B /* FBShimmeringLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBShimmeringLayer.h; sourceTree = "<group>"; };
 		D25068B41CD17FA7002AD04B /* FBShimmeringView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBShimmeringView.h; sourceTree = "<group>"; };
 		D25068B51CD18827002AD04B /* 172.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 172.png; sourceTree = "<group>"; };
-		D25068B71CD18A1E002AD04B /* yocjvibhuimg-vid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yocjvibhuimg-vid.png"; sourceTree = "<group>"; };
 		D25068B91CD18AEF002AD04B /* yocjvibhuimg-vid2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yocjvibhuimg-vid2.png"; sourceTree = "<group>"; };
-		D25068BD1CD19114002AD04B /* vibhu.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = vibhu.m4v; sourceTree = "<group>"; };
 		D25068BE1CD195EB002AD04B /* Vibhu.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Vibhu.mp4; sourceTree = "<group>"; };
 		D25068C61CD1A5BB002AD04B /* tablamov.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = tablamov.m4v; sourceTree = "<group>"; };
 		D25068C71CD1A63E002AD04B /* familyimg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = familyimg.png; sourceTree = "<group>"; };
@@ -226,10 +223,8 @@
 			isa = PBXGroup;
 			children = (
 				D25068CE1CD1B3C4002AD04B /* fll.png */,
-				D25068BD1CD19114002AD04B /* vibhu.m4v */,
 				D25068B91CD18AEF002AD04B /* yocjvibhuimg-vid2.png */,
 				D25068BE1CD195EB002AD04B /* Vibhu.mp4 */,
-				D25068B71CD18A1E002AD04B /* yocjvibhuimg-vid.png */,
 				D25068B51CD18827002AD04B /* 172.png */,
 				D25068A91CD063C4002AD04B /* 1-f.png */,
 				D25068691CD06284002AD04B /* About Me.png */,
@@ -419,6 +414,7 @@
 				TargetAttributes = {
 					D251CA401CD05A0500A63B58 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = Y4V9E48372;
 					};
 					D251CA541CD05A0500A63B58 = {
 						CreatedOnToolsVersion = 7.3;
@@ -469,7 +465,6 @@
 				D25068951CD06284002AD04B /* hbutton.png in Resources */,
 				D25068A31CD06284002AD04B /* schoolinside.png in Resources */,
 				D250688B1CD06284002AD04B /* bandSetting.png in Resources */,
-				D25068B81CD18A1E002AD04B /* yocjvibhuimg-vid.png in Resources */,
 				D25068D11CD1B487002AD04B /* germanLanguage.png in Resources */,
 				D25068A61CD06284002AD04B /* subjects.png in Resources */,
 				D25068C81CD1A63E002AD04B /* familyimg.png in Resources */,
@@ -730,6 +725,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = VibhuGandikota/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Gandikota.VibhuGandikota;
@@ -745,6 +741,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = VibhuGandikota/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Gandikota.VibhuGandikota;

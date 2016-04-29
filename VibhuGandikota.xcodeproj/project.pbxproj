@@ -45,15 +45,14 @@
 		D25068B01CD068A3002AD04B /* scipi12.png in Resources */ = {isa = PBXBuildFile; fileRef = D25068AF1CD068A3002AD04B /* scipi12.png */; };
 		D25068B61CD18827002AD04B /* 172.png in Resources */ = {isa = PBXBuildFile; fileRef = D25068B51CD18827002AD04B /* 172.png */; };
 		D25068BA1CD18AEF002AD04B /* yocjvibhuimg-vid2.png in Resources */ = {isa = PBXBuildFile; fileRef = D25068B91CD18AEF002AD04B /* yocjvibhuimg-vid2.png */; };
-		D25068BF1CD196AB002AD04B /* Vibhu.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D25068BE1CD195EB002AD04B /* Vibhu.mp4 */; };
 		D25068C81CD1A63E002AD04B /* familyimg.png in Resources */ = {isa = PBXBuildFile; fileRef = D25068C71CD1A63E002AD04B /* familyimg.png */; };
 		D25068CA1CD1A689002AD04B /* tabla.png in Resources */ = {isa = PBXBuildFile; fileRef = D25068C91CD1A689002AD04B /* tabla.png */; };
-		D25068CB1CD1A6E2002AD04B /* tablamov.m4v in Resources */ = {isa = PBXBuildFile; fileRef = D25068C61CD1A5BB002AD04B /* tablamov.m4v */; };
 		D25068CD1CD1AC65002AD04B /* familyVibhu.png in Resources */ = {isa = PBXBuildFile; fileRef = D25068CC1CD1AC65002AD04B /* familyVibhu.png */; };
 		D25068CF1CD1B3C4002AD04B /* fll.png in Resources */ = {isa = PBXBuildFile; fileRef = D25068CE1CD1B3C4002AD04B /* fll.png */; };
 		D25068D11CD1B487002AD04B /* germanLanguage.png in Resources */ = {isa = PBXBuildFile; fileRef = D25068D01CD1B487002AD04B /* germanLanguage.png */; };
 		D25068D51CD1C2EC002AD04B /* AboutMePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25068D41CD1C2EC002AD04B /* AboutMePageViewController.swift */; };
 		D25068D71CD1C4E1002AD04B /* AboutMe2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25068D61CD1C4E1002AD04B /* AboutMe2ViewController.swift */; };
+		D25068D91CD3032B002AD04B /* tbla2.png in Resources */ = {isa = PBXBuildFile; fileRef = D25068D81CD3032B002AD04B /* tbla2.png */; };
 		D251CA5A1CD05A0500A63B58 /* VibhuGandikotaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D251CA591CD05A0500A63B58 /* VibhuGandikotaTests.swift */; };
 		D251CA651CD05A0500A63B58 /* VibhuGandikotaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D251CA641CD05A0500A63B58 /* VibhuGandikotaUITests.swift */; };
 		D251CAB21CD05B0E00A63B58 /* AboutMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D251CA771CD05B0E00A63B58 /* AboutMeViewController.swift */; };
@@ -139,8 +138,6 @@
 		D25068B41CD17FA7002AD04B /* FBShimmeringView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBShimmeringView.h; sourceTree = "<group>"; };
 		D25068B51CD18827002AD04B /* 172.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 172.png; sourceTree = "<group>"; };
 		D25068B91CD18AEF002AD04B /* yocjvibhuimg-vid2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yocjvibhuimg-vid2.png"; sourceTree = "<group>"; };
-		D25068BE1CD195EB002AD04B /* Vibhu.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Vibhu.mp4; sourceTree = "<group>"; };
-		D25068C61CD1A5BB002AD04B /* tablamov.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = tablamov.m4v; sourceTree = "<group>"; };
 		D25068C71CD1A63E002AD04B /* familyimg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = familyimg.png; sourceTree = "<group>"; };
 		D25068C91CD1A689002AD04B /* tabla.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabla.png; sourceTree = "<group>"; };
 		D25068CC1CD1AC65002AD04B /* familyVibhu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = familyVibhu.png; sourceTree = "<group>"; };
@@ -148,6 +145,7 @@
 		D25068D01CD1B487002AD04B /* germanLanguage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = germanLanguage.png; sourceTree = "<group>"; };
 		D25068D41CD1C2EC002AD04B /* AboutMePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutMePageViewController.swift; sourceTree = "<group>"; };
 		D25068D61CD1C4E1002AD04B /* AboutMe2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutMe2ViewController.swift; sourceTree = "<group>"; };
+		D25068D81CD3032B002AD04B /* tbla2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tbla2.png; sourceTree = "<group>"; };
 		D251CA411CD05A0500A63B58 /* VibhuGandikota.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VibhuGandikota.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D251CA551CD05A0500A63B58 /* VibhuGandikotaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VibhuGandikotaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D251CA591CD05A0500A63B58 /* VibhuGandikotaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VibhuGandikotaTests.swift; sourceTree = "<group>"; };
@@ -222,9 +220,9 @@
 		D25068681CD06284002AD04B /* untitled folder115 */ = {
 			isa = PBXGroup;
 			children = (
+				D25068D81CD3032B002AD04B /* tbla2.png */,
 				D25068CE1CD1B3C4002AD04B /* fll.png */,
 				D25068B91CD18AEF002AD04B /* yocjvibhuimg-vid2.png */,
-				D25068BE1CD195EB002AD04B /* Vibhu.mp4 */,
 				D25068B51CD18827002AD04B /* 172.png */,
 				D25068A91CD063C4002AD04B /* 1-f.png */,
 				D25068691CD06284002AD04B /* About Me.png */,
@@ -257,7 +255,6 @@
 				D25068AF1CD068A3002AD04B /* scipi12.png */,
 				D25068801CD06284002AD04B /* Programming.png */,
 				D25068811CD06284002AD04B /* reading.png */,
-				D25068C61CD1A5BB002AD04B /* tablamov.m4v */,
 				D25068821CD06284002AD04B /* ruby.png */,
 				D25068831CD06284002AD04B /* schoolinside.png */,
 				D25068841CD06284002AD04B /* scip.png */,
@@ -451,8 +448,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D25068CB1CD1A6E2002AD04B /* tablamov.m4v in Resources */,
-				D25068BF1CD196AB002AD04B /* Vibhu.mp4 in Resources */,
 				D250689D1CD06284002AD04B /* My Apps.png in Resources */,
 				D25068B61CD18827002AD04B /* 172.png in Resources */,
 				D25068B01CD068A3002AD04B /* scipi12.png in Resources */,
@@ -499,6 +494,7 @@
 				D250689B1CD06284002AD04B /* mni.png in Resources */,
 				D25068A51CD06284002AD04B /* scratchlang.png in Resources */,
 				D25068CA1CD1A689002AD04B /* tabla.png in Resources */,
+				D25068D91CD3032B002AD04B /* tbla2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -70,7 +70,7 @@ SlideText.editable = false
         SlideText.textAlignment = NSTextAlignment.Justified
         self.view.addSubview(SlideText)
         //image.image = UIImage(named: "MusicYOCJ")
-        image.setImageInputs([ImageSource(image: UIImage(named: "YOCJ")!), ImageSource(image: UIImage(named: "172")!),ImageSource(image: UIImage(named: "yocjvibhuimg-vid2")!), ImageSource(image: UIImage(named: "tabla")!)])
+        image.setImageInputs([ImageSource(image: UIImage(named: "YOCJ")!), ImageSource(image: UIImage(named: "172")!),ImageSource(image: UIImage(named: "tbla2")!)])
         image.sizeToFit()
         
         SlideText.alignmentRectForFrame(self.view.frame)
@@ -156,7 +156,7 @@ SlideText.editable = false
 
     func playMovie(){
     
-        
+ /*
         let path = NSBundle.mainBundle().pathForResource("Vibhu", ofType:"mp4")
         let url = NSURL.fileURLWithPath(path!)
         
@@ -171,7 +171,7 @@ SlideText.editable = false
         moviePlayer.fullscreen = true
         
         moviePlayer.controlStyle = MPMovieControlStyle.Embedded
-        
+        */
       
         
             }
@@ -180,7 +180,7 @@ SlideText.editable = false
     
     func playMovie2(){
         
-        
+        /*
         let path = NSBundle.mainBundle().pathForResource("tablamov", ofType:"m4v")
         let url = NSURL.fileURLWithPath(path!)
         
@@ -196,15 +196,16 @@ SlideText.editable = false
         
         moviePlayer.controlStyle = MPMovieControlStyle.Embedded
         
-        
+        */
         
     }
 
     
    
     func tick(){
+        /*
         self.view.subviews[self.view.subviews.count-1].removeFromSuperview()
-
+*/
         
     }
     
